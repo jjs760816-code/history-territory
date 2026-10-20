@@ -1,11 +1,13 @@
 'use client';
+import {defaultTeams,scenarioFor} from '../lib/game-scenarios';
 import {Download,LogOut,Flag} from 'lucide-react';
 import {nationNames,nationColors} from './map';
 export default function GameResults({result,finished=false,onClose,busy=false}:any){
+ const teams=result.teams||defaultTeams(),nationNames=teams.map((t:any)=>t.name),nationColors=teams.map((t:any)=>t.color);
  const scores=[...result.scores].sort((a:any,b:any)=>b.score-a.score||a.team-b.team);
  const download=()=>{const blob=new Blob([JSON.stringify(result,null,2)],{type:'application/json;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='역사영토전_결과_'+result.code+'.json';a.click();URL.revokeObjectURL(url)};
  return <div className="final-results" role="dialog" aria-modal="true" aria-label={finished?'게임 종료 결과':'저장된 게임 결과'}><section className="final-sheet">
-  <header className="final-heading"><div><div className="eyebrow">{finished?'게임 종료 · 서버에 기록 저장 완료':'메인 화면에 남겨 둔 우리 반 게임 기록'}</div><h1>{result.title}</h1><p>{new Date(result.endedAt).toLocaleString('ko-KR')} 종료 · 참여 {result.playerCount}명 · 방 {result.code}</p></div><Flag size={32}/></header>
+  <header className="final-heading"><div><div className="eyebrow">{finished?'게임 종료 · 서버에 기록 저장 완료':'메인 화면에 남겨 둔 우리 반 게임 기록'}</div><h1>{result.title}</h1><p>{new Date(result.endedAt).toLocaleString('ko-KR')} 종료 · {scenarioFor(result.scenario).name} · 참여 {result.playerCount}명 · 방 {result.code}</p></div><Flag size={32}/></header>
   <div className="final-winner">🏆 {scores.filter((s:any)=>s.score===scores[0]?.score).map((s:any)=>nationNames[s.team]).join(' · ')} {scores.filter((s:any)=>s.score===scores[0]?.score).length>1?'공동 ':''}1위</div>
   <p className="final-formula">국력 = 점령한 땅 수 + 한강 가중치 (한강 영토마다 +1점)</p>
   <div className="final-table-wrap"><table className="final-table"><thead><tr><th>순위</th><th>나라</th><th>점령 영토</th><th>한강 가중치</th><th>총점</th></tr></thead><tbody>{scores.map((s:any)=><tr key={s.team} style={{'--nation':nationColors[s.team]} as any}><td>{1+scores.filter((x:any)=>x.score>s.score).length}위</td><th>{nationNames[s.team]}</th><td>{s.count}곳</td><td>+{s.hanBonus}점</td><td><strong>{s.score}점</strong></td></tr>)}</tbody></table></div>

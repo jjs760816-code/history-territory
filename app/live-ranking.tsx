@@ -1,4 +1,5 @@
 'use client';
+import {defaultTeams} from '../lib/game-scenarios';
 import {useState} from 'react';
 import {Flag,Users,ChevronRight} from 'lucide-react';
 import {nationNames,nationColors} from './map';
@@ -6,13 +7,14 @@ import {nationNames,nationColors} from './map';
 type Land={id:string;owner:number|null;subject:string;hanRiver?:boolean;wilderness?:boolean};
 type Props={game:any;lastSync:number|null;connection:string;onSelect:(id:string)=>void};
 export default function LiveRanking({game,lastSync,connection,onSelect}:Props){
+ const teams=game.teams||defaultTeams(),nationNames=teams.map((t:any)=>t.name),nationColors=teams.map((t:any)=>t.color);
  const [view,setView]=useState<'nations'|'people'>('nations');
  const lands:Land[]=game.territories;const people:any[]=game.contributions||[];const mine=people.find(p=>p.isMe);
- const standings=nationNames.map((name,team)=>{
+ const standings=nationNames.map((name:string,team:number)=>{
   const owned=lands.filter(t=>t.owner===team),server=game.scores?.find((s:any)=>s.team===team);
   const count=owned.length,bonus=owned.filter(t=>t.hanRiver).length;
   return {name,team,owned,count,bonus:server?.hanBonus??bonus,score:server?.score??count+bonus,players:game.players.filter((p:any)=>p.team===team).length};
- }).sort((a,b)=>b.score-a.score||a.team-b.team);
+ }).sort((a:any,b:any)=>b.score-a.score||a.team-b.team);
  const neutral=lands.filter(t=>t.owner===null).length,wilderness=lands.filter(t=>t.wilderness).length;
  return <aside className="live-ranking panel" aria-label="실시간 영토 현황과 국력 순위">
   <div className="ranking-heading"><div><div className="eyebrow">함께 넓히는 우리 나라</div><h2>{view==='nations'?'국력 순위':'개인별 기여도'}</h2></div><Flag size={23}/></div>
@@ -20,13 +22,13 @@ export default function LiveRanking({game,lastSync,connection,onSelect}:Props){
   <p className="ranking-formula">점령한 땅 수 <b>＋</b> 가중치 <b>＝ 총점</b></p>
   <p className="ranking-rule">한강 유역은 땅마다 +1점 추가 (총 2점)</p>
   {view==='nations'&&<ol className="ranking-list" aria-live="polite" aria-relevant="text">
-   {standings.map(x=>{const rank=1+standings.filter(y=>y.score>x.score).length,tied=standings.filter(y=>y.score===x.score).length>1,mine=!game.me.teacher&&game.me.team===x.team;
+   {standings.map((x:any)=>{const rank=1+standings.filter((y:any)=>y.score>x.score).length,tied=standings.filter((y:any)=>y.score===x.score).length>1,mine=!game.me.teacher&&game.me.team===x.team;
     return <li key={x.team} className={'ranking-country'+(mine?' ranking-mine':'')} style={{'--nation':nationColors[x.team]} as any}>
      <div className="ranking-title"><span className="ranking-place">{tied?'공동 ':''}{rank}위</span><b><i/>{x.name}{mine&&<small>우리 나라</small>}</b><strong>{x.score}<small>점</small></strong></div>
      <div className="ranking-calculation"><span>점령 <b>{x.count}</b>곳</span><span>＋ 가중치 <b>{x.bonus}</b>점</span><span>＝ <b>{x.score}</b>점</span></div>
      <div className="ranking-meter" aria-hidden="true"><span style={{width:(lands.length?x.count/lands.length*100:0)+'%'}}/></div>
      <div className="ranking-meta"><span><Users size={12}/>{x.players}명 참여</span><span>한강 {x.bonus}곳</span></div>
-     <details className="ranking-holdings"><summary>점령한 땅 {x.count}곳 보기</summary>{x.count?<ul>{x.owned.map(t=><li key={t.id}><button onClick={()=>onSelect(t.id)}><span>{t.subject}{t.wilderness?' · 출제 전':''}</span><b>{t.hanRiver?'2점':'1점'}</b><ChevronRight size={13}/></button></li>)}</ul>:<p>아직 점령한 땅이 없어요.</p>}</details>
+     <details className="ranking-holdings"><summary>점령한 땅 {x.count}곳 보기</summary>{x.count?<ul>{x.owned.map((t:any)=><li key={t.id}><button onClick={()=>onSelect(t.id)}><span>{t.subject}{t.wilderness?' · 출제 전':''}</span><b>{t.hanRiver?'2점':'1점'}</b><ChevronRight size={13}/></button></li>)}</ul>:<p>아직 점령한 땅이 없어요.</p>}</details>
     </li>;
    })}
   </ol>}
