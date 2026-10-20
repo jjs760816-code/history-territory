@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "seed-001",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "구석기",
+    "country": "선사",
+    "category": "유물",
+    "subject": "뗀석기",
+    "q": "구석기 시대에 돌을 깨뜨려 만든 도구를 무엇이라고 하나요?",
+    "options": [
+      "뗀석기",
+      "청동기",
+      "철기",
+      "금속 활자"
+    ],
+    "answer": 0,
+    "explain": "돌을 깨뜨리거나 떼어 내 만든 뗀석기는 구석기 시대의 대표적인 도구입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-002",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "구석기",
+    "country": "선사",
+    "category": "유물",
+    "subject": "주먹도끼",
+    "q": "구석기 시대의 대표적인 뗀석기로, 손에 쥐고 여러 용도로 쓰던 도구는 무엇인가요?",
+    "options": [
+      "비파형 동검",
+      "주먹도끼",
+      "가락바퀴",
+      "측우기"
+    ],
+    "answer": 1,
+    "explain": "주먹도끼는 짐승을 손질하거나 나무와 열매를 다듬는 등 여러 용도로 사용됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-003",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "구석기",
+    "country": "선사",
+    "category": "생활·문화",
+    "subject": "먹거리",
+    "q": "구석기 시대 사람들이 먹거리를 얻던 주요 방법은 무엇인가요?",
+    "options": [
+      "공장에서 식품 생산하기",
+      "모내기로 벼농사 짓기",
+      "사냥과 채집",
+      "시장에서 쌀 사기"
+    ],
+    "answer": 2,
+    "explain": "구석기 시대에는 사냥·물고기잡이·열매 채집 등으로 먹거리를 구했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-004",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "구석기",
+    "country": "선사",
+    "category": "생활·문화",
+    "subject": "이동 생활",
+    "q": "구석기 시대 사람들이 먹거리를 따라 옮겨 다닌 까닭은 무엇인가요?",
+    "options": [
+      "기차역이 자주 바뀌어서",
+      "모든 집이 벽돌로 지어져서",
+      "매년 과거 시험을 보려고",
+      "한곳의 먹거리가 부족해질 수 있어서"
+    ],
+    "answer": 3,
+    "explain": "사냥감이나 식물 같은 먹거리를 찾아 이동하는 생활을 했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-005",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "구석기",
+    "country": "선사",
+    "category": "생활·문화",
+    "subject": "주거",
+    "q": "구석기 시대 사람들의 생활 장소로 알맞은 것은 무엇인가요?",
+    "options": [
+      "동굴과 막집",
+      "기와 궁궐",
+      "고층 아파트",
+      "벽돌 학교"
+    ],
+    "answer": 0,
+    "explain": "구석기 사람들은 동굴이나 나뭇가지 등으로 만든 막집에서 생활했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-006",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "구석기",
+    "country": "선사",
+    "category": "유적",
+    "subject": "전곡리 유적",
+    "q": "대표적인 구석기 유적인 전곡리 유적이 있는 지역은 어디인가요?",
+    "options": [
+      "경상북도 경주",
+      "경기도 연천",
+      "충청남도 부여",
+      "전북특별자치도 익산"
+    ],
+    "answer": 1,
+    "explain": "연천 전곡리 유적에서는 주먹도끼 등 구석기 시대의 도구가 발견됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-007",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "신석기",
+    "country": "선사",
+    "category": "유물",
+    "subject": "간석기",
+    "q": "신석기 시대에 돌을 갈아서 만든 도구를 무엇이라고 하나요?",
+    "options": [
+      "뗀석기",
+      "금속 활자",
+      "간석기",
+      "청동 방울"
+    ],
+    "answer": 2,
+    "explain": "신석기 시대에는 돌의 날이나 표면을 갈아 만든 간석기를 사용했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-008",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "신석기",
+    "country": "선사",
+    "category": "유물",
+    "subject": "빗살무늬토기",
+    "q": "신석기 시대를 대표하는, 겉면에 빗살 같은 무늬가 있는 토기는 무엇인가요?",
+    "options": [
+      "청자",
+      "백자",
+      "분청사기",
+      "빗살무늬토기"
+    ],
+    "answer": 3,
+    "explain": "빗살무늬토기는 신석기 시대 사람들이 음식을 담고 조리하는 데 사용한 토기입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-009",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "신석기",
+    "country": "선사",
+    "category": "생활·문화",
+    "subject": "농사 시작",
+    "q": "한반도에서 농사와 가축 기르기가 시작된 시대는 언제인가요?",
+    "options": [
+      "신석기 시대",
+      "고려 시대",
+      "조선 시대",
+      "일제 강점기"
+    ],
+    "answer": 0,
+    "explain": "신석기 시대부터 농사와 가축 기르기가 시작됐으며 사냥과 채집도 계속됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-010",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "신석기",
+    "country": "선사",
+    "category": "생활·문화",
+    "subject": "움집",
+    "q": "신석기 시대 사람들이 땅을 파고 기둥과 지붕을 세워 만든 집은 무엇인가요?",
+    "options": [
+      "서원",
+      "움집",
+      "성곽",
+      "궁궐"
+    ],
+    "answer": 1,
+    "explain": "신석기 사람들은 강가나 바닷가 등에서 움집을 짓고 모여 살았습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-011",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "신석기",
+    "country": "선사",
+    "category": "유적",
+    "subject": "암사동 유적",
+    "q": "서울 암사동 유적에서 주로 살펴볼 수 있는 시대의 생활은 무엇인가요?",
+    "options": [
+      "조선 후기",
+      "고려 후기",
+      "신석기 시대",
+      "대한제국 시기"
+    ],
+    "answer": 2,
+    "explain": "서울 암사동 유적에는 신석기 시대의 집터와 빗살무늬토기 등이 남아 있습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-012",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "신석기",
+    "country": "선사",
+    "category": "유물",
+    "subject": "가락바퀴",
+    "q": "신석기 시대에 실을 뽑는 데 사용한 도구는 무엇인가요?",
+    "options": [
+      "주먹도끼",
+      "비파형 동검",
+      "자격루",
+      "가락바퀴"
+    ],
+    "answer": 3,
+    "explain": "가락바퀴는 섬유를 꼬아 실을 만드는 데 사용한 도구입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-013",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "신석기",
+    "country": "선사",
+    "category": "유적",
+    "subject": "조개무지",
+    "q": "옛사람들이 먹고 버린 조개껍데기가 쌓인 유적을 무엇이라고 하나요?",
+    "options": [
+      "조개무지",
+      "고인돌",
+      "봉수대",
+      "왕릉"
+    ],
+    "answer": 0,
+    "explain": "조개무지에는 조개껍데기와 함께 뼈·토기·도구 등이 남아 당시 생활을 알려 줍니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-014",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "청동기",
+    "country": "선사",
+    "category": "유물",
+    "subject": "청동의 재료",
+    "q": "청동을 만들 때 주로 섞는 두 금속은 무엇인가요?",
+    "options": [
+      "철과 종이",
+      "구리와 주석",
+      "금과 나무",
+      "은과 흙"
+    ],
+    "answer": 1,
+    "explain": "청동은 구리에 주석 등을 섞어 만든 합금입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-015",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "청동기",
+    "country": "선사",
+    "category": "유적",
+    "subject": "고인돌",
+    "q": "청동기 시대 지배층의 힘을 짐작하게 하는 큰 돌무덤은 무엇인가요?",
+    "options": [
+      "석굴암",
+      "첨성대",
+      "고인돌",
+      "성균관"
+    ],
+    "answer": 2,
+    "explain": "큰 돌을 옮겨 만든 고인돌은 당시의 사회 조직과 지배층의 존재를 보여 줍니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-016",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "청동기",
+    "country": "선사",
+    "category": "유물",
+    "subject": "비파형 동검",
+    "q": "몸통이 악기 비파처럼 생긴 청동검의 이름은 무엇인가요?",
+    "options": [
+      "환두대도",
+      "돌화살촉",
+      "거중기",
+      "비파형 동검"
+    ],
+    "answer": 3,
+    "explain": "비파형 동검은 청동기 문화를 대표하는 유물로 고조선의 문화 범위를 살피는 자료입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-017",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "청동기",
+    "country": "선사",
+    "category": "생활·문화",
+    "subject": "계급 발생",
+    "q": "청동기 시대에 지배층이 나타나는 데 영향을 준 변화는 무엇인가요?",
+    "options": [
+      "농업 생산량과 남는 생산물의 증가",
+      "모든 사람의 재산이 완전히 같아짐",
+      "농사를 전혀 짓지 않게 됨",
+      "인쇄술로 신문이 널리 보급됨"
+    ],
+    "answer": 0,
+    "explain": "남는 생산물과 재산의 차이가 커지면서 지배층이 성장했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-018",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "청동기",
+    "country": "선사",
+    "category": "유물",
+    "subject": "반달 돌칼",
+    "q": "청동기 시대에 곡식의 이삭을 거두는 데 사용한 도구는 무엇인가요?",
+    "options": [
+      "측우기",
+      "반달 돌칼",
+      "금속 활자",
+      "거북선"
+    ],
+    "answer": 1,
+    "explain": "청동기 시대에도 돌로 만든 농기구를 널리 사용했으며 반달 돌칼로 이삭을 거뒀습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-019",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "청동기",
+    "country": "선사",
+    "category": "유물",
+    "subject": "민무늬토기",
+    "q": "청동기 시대를 대표하는, 무늬가 적거나 거의 없는 토기는 무엇인가요?",
+    "options": [
+      "상감 청자",
+      "달항아리",
+      "민무늬토기",
+      "유리컵"
+    ],
+    "answer": 2,
+    "explain": "청동기 시대에는 무늬가 적은 민무늬토기가 널리 사용됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-020",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "고조선",
+    "country": "고조선",
+    "category": "인물",
+    "subject": "단군왕검",
+    "q": "고조선 건국 이야기에서 나라를 세운 인물로 전해지는 사람은 누구인가요?",
+    "options": [
+      "왕건",
+      "이성계",
+      "대조영",
+      "단군왕검"
+    ],
+    "answer": 3,
+    "explain": "단군왕검은 고조선을 세운 인물로 전해지며 건국 이야기는 삼국유사 등에 실려 있습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-021",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "고조선",
+    "country": "고조선",
+    "category": "사건",
+    "subject": "최초의 국가",
+    "q": "우리 역사에서 최초의 국가로 배우는 나라는 무엇인가요?",
+    "options": [
+      "고조선",
+      "고려",
+      "조선",
+      "발해"
+    ],
+    "answer": 0,
+    "explain": "고조선은 우리 역사 속 최초의 국가로 알려져 있습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-022",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "고조선",
+    "country": "고조선",
+    "category": "생활·문화",
+    "subject": "홍익인간",
+    "q": "고조선의 건국 이념인 홍익인간의 뜻으로 알맞은 것은 무엇인가요?",
+    "options": [
+      "왕만 부유하게 만든다",
+      "널리 인간을 이롭게 한다",
+      "농사를 모두 금지한다",
+      "다른 사람의 말을 듣지 않는다"
+    ],
+    "answer": 1,
+    "explain": "홍익인간은 널리 인간 세상을 이롭게 한다는 뜻입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-023",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "고조선",
+    "country": "고조선",
+    "category": "사건",
+    "subject": "8조법",
+    "q": "고조선에서 사회 질서를 유지하기 위해 만든 법은 무엇인가요?",
+    "options": [
+      "경국대전",
+      "훈민정음",
+      "8조법",
+      "홍범 14조"
+    ],
+    "answer": 2,
+    "explain": "8조법은 고조선의 법으로 현재는 일부 조항이 전해집니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-024",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "고조선",
+    "country": "고조선",
+    "category": "생활·문화",
+    "subject": "8조법의 의미",
+    "q": "남의 물건을 훔친 사람을 처벌한 8조법으로 짐작할 수 있는 것은 무엇인가요?",
+    "options": [
+      "모든 물건은 주인이 없었다",
+      "농사를 전혀 짓지 않았다",
+      "문자가 없으면 법도 없었다",
+      "개인의 재산을 중요하게 여겼다"
+    ],
+    "answer": 3,
+    "explain": "도둑질을 처벌한 조항은 개인 재산을 보호하려 했음을 보여 줍니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-025",
+    "unit": "공통 학습 주제 1. 선사와 고조선",
+    "era": "고조선",
+    "country": "고조선",
+    "category": "유물",
+    "subject": "문화 범위",
+    "q": "고조선의 문화가 퍼진 범위를 짐작하는 데 함께 활용하는 것은 무엇인가요?",
+    "options": [
+      "비파형 동검과 탁자식 고인돌의 분포",
+      "훈민정음과 측우기의 분포",
+      "청자와 금속 활자의 분포",
+      "철도와 전차의 분포"
+    ],
+    "answer": 0,
+    "explain": "비파형 동검과 탁자식 고인돌의 분포는 고조선 문화의 범위를 살피는 자료입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-026",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "고구려",
+    "category": "인물",
+    "subject": "주몽",
+    "q": "고구려를 세운 인물로 전해지는 사람은 누구인가요?",
+    "options": [
+      "온조",
+      "주몽",
+      "박혁거세",
+      "김수로"
+    ],
+    "answer": 1,
+    "explain": "고구려의 건국자는 주몽으로 전해집니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-027",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "백제",
+    "category": "인물",
+    "subject": "온조",
+    "q": "백제를 세운 인물로 전해지는 사람은 누구인가요?",
+    "options": [
+      "주몽",
+      "왕건",
+      "온조",
+      "대조영"
+    ],
+    "answer": 2,
+    "explain": "백제의 건국자는 온조로 전해집니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-028",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "신라",
+    "category": "인물",
+    "subject": "박혁거세",
+    "q": "신라를 세운 인물로 전해지는 사람은 누구인가요?",
+    "options": [
+      "이성계",
+      "장보고",
+      "최무선",
+      "박혁거세"
+    ],
+    "answer": 3,
+    "explain": "신라의 건국자는 박혁거세로 전해집니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-029",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "가야",
+    "country": "가야",
+    "category": "인물",
+    "subject": "김수로",
+    "q": "금관가야를 세운 인물로 전해지는 사람은 누구인가요?",
+    "options": [
+      "김수로",
+      "근초고왕",
+      "장수왕",
+      "문무왕"
+    ],
+    "answer": 0,
+    "explain": "금관가야의 건국 이야기에는 김수로왕이 등장합니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-030",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "고구려",
+    "category": "인물",
+    "subject": "광개토대왕",
+    "q": "고구려의 영토를 크게 넓혀 그 업적이 큰 비석에 기록된 왕은 누구인가요?",
+    "options": [
+      "무령왕",
+      "광개토대왕",
+      "법흥왕",
+      "성왕"
+    ],
+    "answer": 1,
+    "explain": "광개토대왕은 고구려의 영토를 넓혔고 그의 업적은 광개토대왕릉비에 기록됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-031",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "고구려",
+    "category": "유물",
+    "subject": "광개토대왕릉비",
+    "q": "광개토대왕의 업적을 기록하기 위해 장수왕 때 세운 비석은 무엇인가요?",
+    "options": [
+      "독립문",
+      "대동여지도",
+      "광개토대왕릉비",
+      "직지"
+    ],
+    "answer": 2,
+    "explain": "장수왕은 아버지 광개토대왕의 업적 등을 기록한 큰 비석을 세웠습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-032",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "고구려",
+    "category": "인물",
+    "subject": "장수왕",
+    "q": "427년 고구려의 수도를 평양으로 옮긴 왕은 누구인가요?",
+    "options": [
+      "근초고왕",
+      "진흥왕",
+      "무왕",
+      "장수왕"
+    ],
+    "answer": 3,
+    "explain": "장수왕은 수도를 평양으로 옮기고 남쪽으로 세력을 넓혔습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-033",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "고구려",
+    "category": "유물",
+    "subject": "고분 벽화",
+    "q": "고구려 사람들의 옷차림과 생활 모습을 살피는 데 도움이 되는 자료는 무엇인가요?",
+    "options": [
+      "고분 벽화",
+      "독립신문",
+      "조선왕조실록",
+      "팔만대장경"
+    ],
+    "answer": 0,
+    "explain": "고구려 고분 벽화에는 당시의 생활과 풍속 등이 그려져 있습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-034",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "백제",
+    "category": "인물",
+    "subject": "근초고왕",
+    "q": "4세기에 백제의 세력을 넓히고 바닷길 교류를 활발히 한 왕은 누구인가요?",
+    "options": [
+      "광종",
+      "근초고왕",
+      "세종",
+      "정조"
+    ],
+    "answer": 1,
+    "explain": "근초고왕 때 백제는 세력을 넓히고 중국과 왜 등과의 교류를 활발히 했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-035",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "백제",
+    "category": "유적",
+    "subject": "무령왕릉",
+    "q": "백제 무령왕릉이 발견된 도시는 어디인가요?",
+    "options": [
+      "평양",
+      "경주",
+      "공주",
+      "개성"
+    ],
+    "answer": 2,
+    "explain": "공주 무령왕릉은 백제 왕과 왕비의 무덤이며 여러 유물이 발견됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-036",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "백제",
+    "category": "유물",
+    "subject": "금동대향로",
+    "q": "백제의 뛰어난 금속 공예 기술을 보여 주는 향로는 무엇인가요?",
+    "options": [
+      "에밀레종",
+      "비파형 동검",
+      "측우기",
+      "백제 금동대향로"
+    ],
+    "answer": 3,
+    "explain": "백제 금동대향로는 산과 동물 등을 섬세하게 표현한 백제의 공예품입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-037",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "백제",
+    "category": "유적",
+    "subject": "미륵사지",
+    "q": "백제의 대표적인 절터인 미륵사지가 있는 곳은 어디인가요?",
+    "options": [
+      "익산",
+      "춘천",
+      "강릉",
+      "서울"
+    ],
+    "answer": 0,
+    "explain": "익산 미륵사지는 백제 무왕 때 세운 절의 터입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-038",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "신라",
+    "category": "인물",
+    "subject": "법흥왕",
+    "q": "신라에서 불교를 공인한 왕은 누구인가요?",
+    "options": [
+      "태조 왕건",
+      "법흥왕",
+      "공민왕",
+      "흥선 대원군"
+    ],
+    "answer": 1,
+    "explain": "법흥왕 때 이차돈의 순교를 계기로 신라에서 불교가 공인됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-039",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "신라",
+    "category": "인물",
+    "subject": "진흥왕",
+    "q": "6세기에 한강 유역을 차지해 신라의 세력을 키운 왕은 누구인가요?",
+    "options": [
+      "성왕",
+      "준왕",
+      "진흥왕",
+      "고종"
+    ],
+    "answer": 2,
+    "explain": "진흥왕 때 신라는 한강 유역을 차지하고 세력을 넓혔습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-040",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "신라",
+    "category": "유적",
+    "subject": "첨성대",
+    "q": "신라 선덕여왕 때 만들어진 천문 관측 관련 유적은 무엇인가요?",
+    "options": [
+      "경복궁",
+      "독립문",
+      "수원 화성",
+      "첨성대"
+    ],
+    "answer": 3,
+    "explain": "경주의 첨성대는 신라 선덕여왕 때 만들어진 천문 관측 관련 유적입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-041",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "가야",
+    "country": "가야",
+    "category": "생활·문화",
+    "subject": "철 교역",
+    "q": "가야가 주변 지역과 활발히 교역한 대표적인 물품은 무엇인가요?",
+    "options": [
+      "철",
+      "석유",
+      "커피",
+      "목화솜"
+    ],
+    "answer": 0,
+    "explain": "가야는 풍부한 철을 바탕으로 철제품을 만들고 주변 지역과 교역했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-042",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "삼국",
+    "category": "사건",
+    "subject": "한강 유역",
+    "q": "삼국이 한강 유역을 차지하려고 경쟁한 까닭으로 알맞은 것은 무엇인가요?",
+    "options": [
+      "일 년 내내 바닷물이 얼었기 때문",
+      "농사와 교통에 유리했기 때문",
+      "모든 산이 사라졌기 때문",
+      "그곳에서만 철도가 다녔기 때문"
+    ],
+    "answer": 1,
+    "explain": "한강 유역은 농사와 물길 교통에 유리하고 교류에도 중요한 지역이었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-043",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "고구려",
+    "category": "인물",
+    "subject": "을지문덕",
+    "q": "수나라의 침입을 살수에서 물리치는 데 활약한 고구려 장군은 누구인가요?",
+    "options": [
+      "강감찬",
+      "권율",
+      "을지문덕",
+      "안중근"
+    ],
+    "answer": 2,
+    "explain": "을지문덕은 612년 수나라 군대를 살수에서 물리치는 데 활약했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-044",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "삼국",
+    "country": "신라",
+    "category": "인물",
+    "subject": "김유신",
+    "q": "김춘추 등과 함께 신라의 삼국 통일 과정에서 활약한 장군은 누구인가요?",
+    "options": [
+      "서희",
+      "정약용",
+      "윤봉길",
+      "김유신"
+    ],
+    "answer": 3,
+    "explain": "김유신은 신라의 장군으로 삼국 통일 과정에서 중요한 역할을 했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-045",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "남북국",
+    "country": "신라",
+    "category": "사건",
+    "subject": "나당 전쟁",
+    "q": "고구려 멸망 뒤 신라가 당나라 군대를 몰아내기 위해 벌인 전쟁은 무엇인가요?",
+    "options": [
+      "나당 전쟁",
+      "임진왜란",
+      "병자호란",
+      "6·25 전쟁"
+    ],
+    "answer": 0,
+    "explain": "신라는 당의 지배 시도에 맞서 나당 전쟁을 치르고 당군을 몰아냈습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-046",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "남북국",
+    "country": "발해",
+    "category": "인물",
+    "subject": "대조영",
+    "q": "고구려 유민과 말갈인 등을 이끌고 발해를 세운 인물은 누구인가요?",
+    "options": [
+      "박혁거세",
+      "대조영",
+      "이성계",
+      "전봉준"
+    ],
+    "answer": 1,
+    "explain": "대조영은 고구려 유민과 말갈인 등을 이끌고 698년에 발해를 세웠습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-047",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "남북국",
+    "country": "발해",
+    "category": "생활·문화",
+    "subject": "고구려 계승",
+    "q": "발해가 계승한 나라로 알맞은 것은 무엇인가요?",
+    "options": [
+      "조선",
+      "고려",
+      "고구려",
+      "대한제국"
+    ],
+    "answer": 2,
+    "explain": "발해는 고구려의 역사와 문화를 계승한 나라입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-048",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "남북국",
+    "country": "신라",
+    "category": "유적",
+    "subject": "불국사와 석굴암",
+    "q": "불국사와 석굴암이 있는 도시는 어디인가요?",
+    "options": [
+      "부여",
+      "인천",
+      "평양",
+      "경주"
+    ],
+    "answer": 3,
+    "explain": "경주의 불국사와 석굴암은 통일 신라 불교 문화의 뛰어난 수준을 보여 줍니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-049",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "남북국",
+    "country": "신라",
+    "category": "인물",
+    "subject": "장보고",
+    "q": "완도에 청해진을 설치하고 바다 교역에서 활약한 인물은 누구인가요?",
+    "options": [
+      "장보고",
+      "김정호",
+      "장영실",
+      "최승로"
+    ],
+    "answer": 0,
+    "explain": "장보고는 청해진을 중심으로 바다의 안전과 교역에 힘썼습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-050",
+    "unit": "공통 학습 주제 2. 삼국과 남북국",
+    "era": "남북국",
+    "country": "신라·발해",
+    "category": "사건",
+    "subject": "남북국 시대",
+    "q": "통일 신라와 발해가 함께 존재하던 시기를 무엇이라고 하나요?",
+    "options": [
+      "후삼국 시대",
+      "남북국 시대",
+      "일제 강점기",
+      "청동기 시대"
+    ],
+    "answer": 1,
+    "explain": "남쪽의 통일 신라와 북쪽의 발해가 함께 존재한 시기를 남북국 시대라고 합니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_10"
+  },
+  {
+    "id": "seed-051",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "인물",
+    "subject": "왕건",
+    "q": "918년에 고려를 세운 인물은 누구인가요?",
+    "options": [
+      "이성계",
+      "온조",
+      "왕건",
+      "고종"
+    ],
+    "answer": 2,
+    "explain": "왕건은 918년에 고려를 세웠으며 태조라고도 불립니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-052",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "사건",
+    "subject": "후삼국 통일",
+    "q": "왕건이 936년에 이룬 중요한 일은 무엇인가요?",
+    "options": [
+      "훈민정음 반포",
+      "대한제국 선포",
+      "3·1 운동 시작",
+      "후삼국 통일"
+    ],
+    "answer": 3,
+    "explain": "고려 태조 왕건은 936년에 후삼국을 통일했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-053",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "유적",
+    "subject": "개경",
+    "q": "고려의 수도였던 개경은 오늘날 어느 도시인가요?",
+    "options": [
+      "개성",
+      "서울",
+      "경주",
+      "대구"
+    ],
+    "answer": 0,
+    "explain": "고려의 수도 개경은 오늘날의 개성입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-054",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "인물",
+    "subject": "광종",
+    "q": "고려에서 관리 선발을 위한 과거제를 실시한 왕은 누구인가요?",
+    "options": [
+      "세종",
+      "광종",
+      "진흥왕",
+      "정조"
+    ],
+    "answer": 1,
+    "explain": "광종은 과거제를 실시해 능력을 갖춘 관리를 뽑으려 했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-055",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "인물",
+    "subject": "서희",
+    "q": "거란과의 외교 담판으로 강동 6주를 확보하는 데 기여한 인물은 누구인가요?",
+    "options": [
+      "장영실",
+      "윤동주",
+      "서희",
+      "김구"
+    ],
+    "answer": 2,
+    "explain": "서희는 거란과 담판해 강동 6주를 확보하는 계기를 마련했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-056",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "인물",
+    "subject": "강감찬",
+    "q": "1019년 귀주 대첩에서 거란군을 물리친 장군은 누구인가요?",
+    "options": [
+      "을지문덕",
+      "이순신",
+      "김유신",
+      "강감찬"
+    ],
+    "answer": 3,
+    "explain": "강감찬은 귀주 대첩에서 거란군을 물리쳤습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-057",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "생활·문화",
+    "subject": "팔관회와 연등회",
+    "q": "고려에서 성행한 팔관회와 연등회로 알 수 있는 것은 무엇인가요?",
+    "options": [
+      "국가적인 종교·문화 행사가 열렸다",
+      "전국에 기차역이 생겼다",
+      "모든 절을 없앴다",
+      "한글 신문을 매일 발행했다"
+    ],
+    "answer": 0,
+    "explain": "고려에는 불교와 전통 신앙 등이 어우러진 국가적 행사가 열렸습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-058",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "유물",
+    "subject": "고려청자",
+    "q": "고려의 대표적인 도자기로 은은한 푸른빛이 특징인 것은 무엇인가요?",
+    "options": [
+      "빗살무늬토기",
+      "청자",
+      "민무늬토기",
+      "백자 달항아리"
+    ],
+    "answer": 1,
+    "explain": "고려청자는 은은한 푸른빛과 정교한 모양으로 널리 알려져 있습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-059",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "생활·문화",
+    "subject": "상감 기법",
+    "q": "도자기 표면에 무늬를 파고 다른 색 흙을 넣어 장식하는 기법은 무엇인가요?",
+    "options": [
+      "모내기법",
+      "활판 인쇄법",
+      "상감 기법",
+      "온돌 기법"
+    ],
+    "answer": 2,
+    "explain": "상감 기법은 무늬를 파고 다른 색 흙을 넣어 장식하는 방법입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-060",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "유물",
+    "subject": "청자 상감 운학문 매병",
+    "q": "구름과 학 무늬를 새겨 넣은 고려 도자기는 무엇인가요?",
+    "options": [
+      "훈민정음 해례본",
+      "백제 금동대향로",
+      "대동여지도",
+      "청자 상감 운학문 매병"
+    ],
+    "answer": 3,
+    "explain": "청자 상감 운학문 매병은 고려의 상감 기법을 보여 주는 대표적 유물입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-061",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "사건",
+    "subject": "몽골의 침입",
+    "q": "13세기에 고려를 여러 차례 침입한 세력은 누구인가요?",
+    "options": [
+      "몽골",
+      "수나라",
+      "청나라",
+      "프랑스"
+    ],
+    "answer": 0,
+    "explain": "13세기 고려는 몽골의 거듭된 침입에 맞서 항쟁했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-062",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "유적",
+    "subject": "강화 천도",
+    "q": "몽골에 맞서기 위해 고려가 수도를 옮긴 섬은 어디인가요?",
+    "options": [
+      "제주도",
+      "강화도",
+      "울릉도",
+      "거제도"
+    ],
+    "answer": 1,
+    "explain": "고려는 몽골의 침입에 맞서 수도를 강화도로 옮겼습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-063",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "유물",
+    "subject": "팔만대장경",
+    "q": "몽골의 침입을 물리치려는 마음을 담아 고려에서 만든 불교 경판은 무엇인가요?",
+    "options": [
+      "경국대전",
+      "독립신문",
+      "팔만대장경",
+      "대동여지도"
+    ],
+    "answer": 2,
+    "explain": "고려 사람들은 불교의 힘으로 나라를 지키고자 팔만대장경을 만들었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-064",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "유적",
+    "subject": "해인사",
+    "q": "팔만대장경판이 보관된 절은 어디인가요?",
+    "options": [
+      "불국사",
+      "미륵사",
+      "황룡사",
+      "해인사"
+    ],
+    "answer": 3,
+    "explain": "팔만대장경판은 경상남도 합천의 해인사에 보관돼 있습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-065",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "유물",
+    "subject": "금속 활자",
+    "q": "고려에서 발달한, 글자 하나하나를 금속으로 만들어 인쇄하는 도구는 무엇인가요?",
+    "options": [
+      "금속 활자",
+      "돌도끼",
+      "청동 거울",
+      "해시계"
+    ],
+    "answer": 0,
+    "explain": "고려에서는 금속으로 낱글자를 만들어 인쇄하는 금속 활자가 발달했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-066",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "유물",
+    "subject": "직지",
+    "q": "현재 남아 있는 세계에서 가장 오래된 금속 활자본으로 알려진 책은 무엇인가요?",
+    "options": [
+      "농사직설",
+      "직지",
+      "동의보감",
+      "독립신문"
+    ],
+    "answer": 1,
+    "explain": "1377년에 인쇄된 직지는 현재 남아 있는 가장 오래된 금속 활자본으로 알려져 있습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-067",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "유적",
+    "subject": "흥덕사",
+    "q": "직지를 금속 활자로 인쇄한 절이 있던 도시는 어디인가요?",
+    "options": [
+      "경주",
+      "강릉",
+      "청주",
+      "부여"
+    ],
+    "answer": 2,
+    "explain": "직지는 청주의 흥덕사에서 금속 활자로 인쇄됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-068",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "인물",
+    "subject": "김부식",
+    "q": "고려에서 삼국사기 편찬을 주도한 인물은 누구인가요?",
+    "options": [
+      "일연",
+      "정약용",
+      "안창호",
+      "김부식"
+    ],
+    "answer": 3,
+    "explain": "김부식은 고려 인종 때 삼국사기 편찬을 주도했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-069",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "인물",
+    "subject": "일연",
+    "q": "단군 건국 이야기 등이 실린 삼국유사를 쓴 승려는 누구인가요?",
+    "options": [
+      "일연",
+      "김부식",
+      "최무선",
+      "왕인"
+    ],
+    "answer": 0,
+    "explain": "일연은 여러 역사 이야기와 불교 이야기 등을 모아 삼국유사를 썼습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-070",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "인물",
+    "subject": "공민왕",
+    "q": "원나라의 간섭에서 벗어나려는 개혁을 추진한 고려의 왕은 누구인가요?",
+    "options": [
+      "성왕",
+      "공민왕",
+      "법흥왕",
+      "영조"
+    ],
+    "answer": 1,
+    "explain": "공민왕은 원의 간섭에서 벗어나고 왕권을 강화하려는 개혁을 추진했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-071",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "인물",
+    "subject": "최무선",
+    "q": "화약 제조에 힘써 고려의 화약 무기 발전에 기여한 인물은 누구인가요?",
+    "options": [
+      "장보고",
+      "김홍도",
+      "최무선",
+      "유관순"
+    ],
+    "answer": 2,
+    "explain": "최무선은 화약 제조법을 익히고 화약 무기 개발에 힘썼습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-072",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "인물",
+    "subject": "문익점",
+    "q": "목화 재배의 보급과 관련된 고려 말 인물은 누구인가요?",
+    "options": [
+      "대조영",
+      "박지원",
+      "안중근",
+      "문익점"
+    ],
+    "answer": 3,
+    "explain": "문익점은 목화씨를 들여와 목화 재배가 퍼지는 데 기여했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-073",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "생활·문화",
+    "subject": "벽란도",
+    "q": "고려의 국제 무역항으로 여러 나라 상인이 드나든 곳은 어디인가요?",
+    "options": [
+      "벽란도",
+      "청해진",
+      "독립문",
+      "경복궁"
+    ],
+    "answer": 0,
+    "explain": "벽란도는 고려의 국제 교역이 활발했던 항구입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-074",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "유적",
+    "subject": "만월대",
+    "q": "고려의 궁궐터인 만월대가 있는 곳은 어디인가요?",
+    "options": [
+      "공주",
+      "개성",
+      "부산",
+      "전주"
+    ],
+    "answer": 1,
+    "explain": "개성 만월대는 고려 왕궁이 있던 터입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-075",
+    "unit": "공통 학습 주제 3. 고려",
+    "era": "고려",
+    "country": "고려",
+    "category": "사건",
+    "subject": "삼별초 항쟁",
+    "q": "고려 정부의 개경 환도에 반대하며 몽골에 계속 맞선 군사 조직은 무엇인가요?",
+    "options": [
+      "화랑",
+      "독립협회",
+      "삼별초",
+      "의열단"
+    ],
+    "answer": 2,
+    "explain": "삼별초는 진도와 제주도 등으로 이동하며 몽골에 맞서 항쟁했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_20"
+  },
+  {
+    "id": "seed-076",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "이성계",
+    "q": "1392년에 조선을 세운 인물은 누구인가요?",
+    "options": [
+      "왕건",
+      "주몽",
+      "대조영",
+      "이성계"
+    ],
+    "answer": 3,
+    "explain": "이성계는 1392년에 조선을 세웠으며 조선 태조라고도 불립니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-077",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "한양 천도",
+    "q": "조선이 수도로 정한 한양은 오늘날 어디인가요?",
+    "options": [
+      "서울",
+      "개성",
+      "경주",
+      "공주"
+    ],
+    "answer": 0,
+    "explain": "조선은 한양으로 수도를 옮겼으며 한양은 오늘날 서울의 중심 지역입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-078",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "정도전",
+    "q": "조선 건국과 국가 제도 정비에 참여한 학자는 누구인가요?",
+    "options": [
+      "강감찬",
+      "정도전",
+      "장보고",
+      "윤봉길"
+    ],
+    "answer": 1,
+    "explain": "정도전은 조선 건국을 돕고 새 나라의 제도를 마련하는 데 참여했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-079",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "유교",
+    "q": "조선이 나라를 다스리는 기본 사상으로 중시한 것은 무엇인가요?",
+    "options": [
+      "천주교",
+      "동학",
+      "유교",
+      "대종교"
+    ],
+    "answer": 2,
+    "explain": "조선은 유교의 가르침을 바탕으로 제도와 생활 질서를 정비했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-080",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유적",
+    "subject": "경복궁",
+    "q": "조선이 한양에 세운 대표적인 궁궐은 무엇인가요?",
+    "options": [
+      "만월대",
+      "안학궁",
+      "동궁과 월지",
+      "경복궁"
+    ],
+    "answer": 3,
+    "explain": "경복궁은 조선 건국 초기 한양에 세운 대표 궁궐입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-081",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "세종",
+    "q": "백성이 쉽게 글을 배우도록 훈민정음을 만든 왕은 누구인가요?",
+    "options": [
+      "세종",
+      "광종",
+      "진흥왕",
+      "공민왕"
+    ],
+    "answer": 0,
+    "explain": "세종은 백성이 뜻을 쉽게 표현하도록 훈민정음을 만들었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-082",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "훈민정음",
+    "q": "오늘날 한글의 처음 이름은 무엇인가요?",
+    "options": [
+      "경국대전",
+      "훈민정음",
+      "삼국사기",
+      "동의보감"
+    ],
+    "answer": 1,
+    "explain": "새 문자를 처음 만들었을 때의 이름은 훈민정음입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-083",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "훈민정음 반포",
+    "q": "세종이 훈민정음을 반포한 해는 언제인가요?",
+    "options": [
+      "918년",
+      "1592년",
+      "1446년",
+      "1919년"
+    ],
+    "answer": 2,
+    "explain": "훈민정음은 1443년에 창제됐고 1446년에 반포됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-084",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "훈민정음 창제 목적",
+    "q": "세종이 새 글자를 만든 목적과 가장 가까운 것은 무엇인가요?",
+    "options": [
+      "백성이 글을 쓰지 못하게 하려고",
+      "한자를 아는 사람만 늘리려고",
+      "다른 나라와 교류를 모두 막으려고",
+      "백성이 자신의 생각을 쉽게 표현하도록 하려고"
+    ],
+    "answer": 3,
+    "explain": "세종은 한자를 배우기 어려운 백성도 쉽게 뜻을 표현하게 하려 했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-085",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "훈민정음 해례본",
+    "q": "훈민정음의 글자 원리와 사용법을 설명한 책은 무엇인가요?",
+    "options": [
+      "훈민정음 해례본",
+      "팔만대장경",
+      "직지",
+      "독립신문"
+    ],
+    "answer": 0,
+    "explain": "훈민정음 해례본에는 새 글자의 원리와 사용법이 설명돼 있습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-086",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "장영실",
+    "q": "세종 때 자격루 등 과학 기구 제작에 참여한 인물은 누구인가요?",
+    "options": [
+      "문익점",
+      "장영실",
+      "김정호",
+      "홍범도"
+    ],
+    "answer": 1,
+    "explain": "장영실은 세종 때 여러 과학 기구를 제작하는 데 활약했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-087",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "측우기",
+    "q": "조선 시대에 내린 비의 양을 재던 기구는 무엇인가요?",
+    "options": [
+      "혼천의",
+      "앙부일구",
+      "측우기",
+      "거중기"
+    ],
+    "answer": 2,
+    "explain": "측우기는 일정한 그릇에 고인 빗물의 깊이로 강수량을 재는 기구입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-088",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "앙부일구",
+    "q": "햇빛과 그림자를 이용해 시간을 알아보는 기구는 무엇인가요?",
+    "options": [
+      "측우기",
+      "수표",
+      "거중기",
+      "앙부일구"
+    ],
+    "answer": 3,
+    "explain": "앙부일구는 해의 그림자로 시간을 읽는 해시계입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-089",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "자격루",
+    "q": "물이 흐르는 원리를 이용해 시간을 알려 주는 기구는 무엇인가요?",
+    "options": [
+      "자격루",
+      "비파형 동검",
+      "가락바퀴",
+      "금속 활자"
+    ],
+    "answer": 0,
+    "explain": "자격루는 물의 흐름을 이용한 자동 물시계입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-090",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "혼천의",
+    "q": "천체의 움직임과 위치를 살피는 데 사용한 기구는 무엇인가요?",
+    "options": [
+      "측우기",
+      "혼천의",
+      "반달 돌칼",
+      "거중기"
+    ],
+    "answer": 1,
+    "explain": "혼천의는 하늘의 별과 천체의 움직임 등을 살피는 천문 기구입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-091",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "농사직설",
+    "q": "우리나라의 환경에 맞는 농사 방법을 정리한 책은 무엇인가요?",
+    "options": [
+      "삼국유사",
+      "경국대전",
+      "농사직설",
+      "열하일기"
+    ],
+    "answer": 2,
+    "explain": "농사직설은 각 지역의 농사 경험을 모아 우리 환경에 맞는 농사법을 정리한 책입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-092",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "경국대전",
+    "q": "조선의 기본 통치 제도를 정리한 법전은 무엇인가요?",
+    "options": [
+      "직지",
+      "독립신문",
+      "난중일기",
+      "경국대전"
+    ],
+    "answer": 3,
+    "explain": "경국대전은 조선의 정치와 행정 등 기본 제도를 정리한 법전입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-093",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "조선왕조실록",
+    "q": "조선 왕들의 통치와 당시 여러 일을 기록한 역사책은 무엇인가요?",
+    "options": [
+      "조선왕조실록",
+      "농사직설",
+      "동의보감",
+      "홍길동전"
+    ],
+    "answer": 0,
+    "explain": "조선왕조실록에는 왕의 통치와 정치·경제·사회·문화에 관한 기록이 담겨 있습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-094",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "과거제",
+    "q": "조선에서 시험으로 관리를 뽑던 제도는 무엇인가요?",
+    "options": [
+      "신분 해방령",
+      "과거제",
+      "호패 제작법",
+      "단발령"
+    ],
+    "answer": 1,
+    "explain": "과거제는 시험으로 관리가 될 사람을 선발하는 제도입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-095",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유적",
+    "subject": "성균관",
+    "q": "조선의 수도 한양에 있던 최고 교육 기관은 무엇인가요?",
+    "options": [
+      "청해진",
+      "독립협회",
+      "성균관",
+      "신흥 무관 학교"
+    ],
+    "answer": 2,
+    "explain": "성균관은 한양에 있던 조선의 최고 교육 기관입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-096",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "향교",
+    "q": "조선 시대 지방에 국가가 세운 교육 기관은 무엇인가요?",
+    "options": [
+      "시장",
+      "봉수대",
+      "조개무지",
+      "향교"
+    ],
+    "answer": 3,
+    "explain": "향교는 지방에서 유교 교육과 제사를 담당한 국가 교육 기관입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-097",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "서당",
+    "q": "조선 시대 마을에서 어린이들이 글을 배우던 곳은 어디인가요?",
+    "options": [
+      "서당",
+      "화포 공장",
+      "왕릉",
+      "세관"
+    ],
+    "answer": 0,
+    "explain": "서당에서는 훈장에게 한문과 글 읽기 등을 배웠습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-098",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "백자",
+    "q": "조선 시대의 대표 도자기로 흰 바탕이 특징인 것은 무엇인가요?",
+    "options": [
+      "빗살무늬토기",
+      "백자",
+      "민무늬토기",
+      "청동 방울"
+    ],
+    "answer": 1,
+    "explain": "백자는 조선 시대를 대표하는 도자기로 흰 바탕이 특징입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-099",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "봉수",
+    "q": "밤에는 불, 낮에는 연기로 소식을 전하던 통신 방법은 무엇인가요?",
+    "options": [
+      "전보",
+      "라디오 방송",
+      "봉수",
+      "신문 배달"
+    ],
+    "answer": 2,
+    "explain": "봉수는 높은 곳에서 불과 연기로 긴급한 소식을 전하던 방법입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-100",
+    "unit": "공통 학습 주제 4. 조선 전기의 정치와 문화",
+    "era": "조선 전기",
+    "country": "조선",
+    "category": "유적",
+    "subject": "종묘",
+    "q": "조선 왕과 왕비의 신주를 모시고 제사를 지내던 곳은 어디인가요?",
+    "options": [
+      "서대문 형무소",
+      "전곡리 유적",
+      "청해진",
+      "종묘"
+    ],
+    "answer": 3,
+    "explain": "종묘는 조선 왕과 왕비의 신주를 모신 유교 사당입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-101",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선",
+    "country": "조선",
+    "category": "사건",
+    "subject": "임진왜란",
+    "q": "1592년에 일본이 조선을 침략하면서 시작된 전쟁은 무엇인가요?",
+    "options": [
+      "임진왜란",
+      "병자호란",
+      "나당 전쟁",
+      "6·25 전쟁"
+    ],
+    "answer": 0,
+    "explain": "임진왜란은 1592년 일본의 침략으로 시작된 전쟁입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-102",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선",
+    "country": "조선",
+    "category": "인물",
+    "subject": "이순신",
+    "q": "임진왜란 때 바다에서 일본군에 맞서 활약한 장군은 누구인가요?",
+    "options": [
+      "강감찬",
+      "이순신",
+      "김유신",
+      "왕건"
+    ],
+    "answer": 1,
+    "explain": "이순신은 조선 수군을 이끌고 여러 해전에서 일본군에 맞서 싸웠습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-103",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선",
+    "country": "조선",
+    "category": "유물",
+    "subject": "거북선",
+    "q": "임진왜란 때 조선 수군이 사용한 지붕을 덮은 전투 배는 무엇인가요?",
+    "options": [
+      "비행선",
+      "증기 기관차",
+      "거북선",
+      "쇄빙선"
+    ],
+    "answer": 2,
+    "explain": "거북선은 조선 수군이 사용한 전투 배로 배의 윗부분을 덮은 구조가 특징입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-104",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선",
+    "country": "조선",
+    "category": "인물",
+    "subject": "권율",
+    "q": "행주산성에서 일본군을 물리치는 데 활약한 장군은 누구인가요?",
+    "options": [
+      "서희",
+      "장보고",
+      "김정호",
+      "권율"
+    ],
+    "answer": 3,
+    "explain": "권율은 임진왜란 중 행주 대첩에서 활약했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-105",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선",
+    "country": "조선",
+    "category": "인물",
+    "subject": "곽재우",
+    "q": "임진왜란 때 스스로 군대를 일으켜 싸운 의병장 중 한 명은 누구인가요?",
+    "options": [
+      "곽재우",
+      "박혁거세",
+      "광종",
+      "세종"
+    ],
+    "answer": 0,
+    "explain": "곽재우는 의병을 일으켜 일본군에 맞선 대표적인 인물입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-106",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "의병",
+    "q": "나라가 위기에 처했을 때 백성들이 스스로 일으킨 군대를 무엇이라고 하나요?",
+    "options": [
+      "사신단",
+      "의병",
+      "상인단",
+      "과거 응시자"
+    ],
+    "answer": 1,
+    "explain": "의병은 나라를 지키기 위해 백성들이 자발적으로 조직한 군대입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-107",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선",
+    "country": "조선",
+    "category": "유물",
+    "subject": "난중일기",
+    "q": "이순신이 전쟁 중의 일과 생각을 기록한 일기는 무엇인가요?",
+    "options": [
+      "열하일기",
+      "삼국사기",
+      "난중일기",
+      "동의보감"
+    ],
+    "answer": 2,
+    "explain": "난중일기는 이순신이 임진왜란 중에 남긴 일기입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-108",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선",
+    "country": "조선",
+    "category": "인물",
+    "subject": "허준",
+    "q": "여러 의학 지식을 정리한 동의보감 편찬을 이끈 의사는 누구인가요?",
+    "options": [
+      "정약용",
+      "김홍도",
+      "최무선",
+      "허준"
+    ],
+    "answer": 3,
+    "explain": "허준은 동의보감 편찬을 이끌어 의학 지식을 체계적으로 정리했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-109",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선",
+    "country": "조선",
+    "category": "사건",
+    "subject": "병자호란",
+    "q": "1636년 조선을 침략해 병자호란을 일으킨 나라는 어디인가요?",
+    "options": [
+      "청",
+      "수",
+      "당",
+      "일본"
+    ],
+    "answer": 0,
+    "explain": "병자호란은 1636년 청이 조선을 침략하면서 일어난 전쟁입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-110",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선",
+    "country": "조선",
+    "category": "유적",
+    "subject": "남한산성",
+    "q": "병자호란 때 인조가 들어가 청군에 맞선 산성은 어디인가요?",
+    "options": [
+      "수원 화성",
+      "남한산성",
+      "공산성",
+      "금정산성"
+    ],
+    "answer": 1,
+    "explain": "인조는 병자호란 때 남한산성으로 들어가 항전했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-111",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "영조",
+    "q": "붕당 사이의 치우침을 줄이려는 탕평책을 추진한 조선의 왕은 누구인가요?",
+    "options": [
+      "근초고왕",
+      "광개토대왕",
+      "영조",
+      "장수왕"
+    ],
+    "answer": 2,
+    "explain": "영조는 붕당 간 대립을 완화하려고 탕평책을 추진했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-112",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "정조",
+    "q": "수원 화성을 건설하고 규장각을 육성한 왕은 누구인가요?",
+    "options": [
+      "태조 왕건",
+      "법흥왕",
+      "충렬왕",
+      "정조"
+    ],
+    "answer": 3,
+    "explain": "정조는 규장각을 육성하고 수원 화성을 건설했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-113",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "유적",
+    "subject": "수원 화성",
+    "q": "정조가 건설한 계획도시의 성곽으로 알맞은 것은 무엇인가요?",
+    "options": [
+      "수원 화성",
+      "한성백제 풍납토성",
+      "고구려 국내성",
+      "발해 상경성"
+    ],
+    "answer": 0,
+    "explain": "수원 화성은 정조 때 건설한 성곽으로 당시의 건축 기술을 보여 줍니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-114",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "거중기",
+    "q": "수원 화성 공사에서 무거운 돌을 들어 올리는 데 활용한 기구는 무엇인가요?",
+    "options": [
+      "자격루",
+      "거중기",
+      "측우기",
+      "가락바퀴"
+    ],
+    "answer": 1,
+    "explain": "정약용이 설계에 참여한 거중기는 화성 공사 때 무거운 물체를 옮기는 데 활용됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-115",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "실학",
+    "q": "백성의 생활 문제를 해결하는 데 도움이 되는 학문을 추구한 흐름은 무엇인가요?",
+    "options": [
+      "풍수만능론",
+      "쇄국령",
+      "실학",
+      "무신 정변"
+    ],
+    "answer": 2,
+    "explain": "실학자들은 토지·농업·상공업 등 실제 생활의 문제를 연구했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-116",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "정약용",
+    "q": "관리의 올바른 자세를 다룬 목민심서를 쓴 실학자는 누구인가요?",
+    "options": [
+      "김부식",
+      "일연",
+      "왕인",
+      "정약용"
+    ],
+    "answer": 3,
+    "explain": "정약용의 목민심서는 지방관이 백성을 위해 어떻게 일해야 하는지 다룬 책입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-117",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "박지원",
+    "q": "청을 다녀온 경험을 바탕으로 열하일기를 쓴 사람은 누구인가요?",
+    "options": [
+      "박지원",
+      "이순신",
+      "이성계",
+      "윤봉길"
+    ],
+    "answer": 0,
+    "explain": "박지원은 청에서 보고 들은 것을 열하일기에 기록했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-118",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "김정호",
+    "q": "대동여지도를 제작한 인물은 누구인가요?",
+    "options": [
+      "장영실",
+      "김정호",
+      "권율",
+      "김수로"
+    ],
+    "answer": 1,
+    "explain": "김정호는 우리 땅을 자세하게 표현한 대동여지도를 제작했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-119",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "대동여지도",
+    "q": "조선 후기 우리나라의 지형과 길 등을 자세히 나타낸 지도는 무엇인가요?",
+    "options": [
+      "훈민정음",
+      "직지",
+      "대동여지도",
+      "경국대전"
+    ],
+    "answer": 2,
+    "explain": "대동여지도는 조선 후기의 정밀한 전국 지도입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-120",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "풍속화",
+    "q": "사람들이 일하거나 놀이하는 일상생활을 그린 그림은 무엇인가요?",
+    "options": [
+      "천문도",
+      "지형도",
+      "왕실 족보",
+      "풍속화"
+    ],
+    "answer": 3,
+    "explain": "풍속화는 사람들의 생활 모습과 풍속을 소재로 그린 그림입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-121",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "김홍도",
+    "q": "씨름과 서당 등 서민의 생활 모습을 그린 화가는 누구인가요?",
+    "options": [
+      "김홍도",
+      "최무선",
+      "문익점",
+      "서희"
+    ],
+    "answer": 0,
+    "explain": "김홍도는 씨름·서당 등 다양한 생활 장면을 풍속화로 그렸습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-122",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "판소리",
+    "q": "한 명의 소리꾼이 고수의 북장단에 맞춰 이야기를 노래하는 공연은 무엇인가요?",
+    "options": [
+      "봉수",
+      "판소리",
+      "과거제",
+      "상감 기법"
+    ],
+    "answer": 1,
+    "explain": "판소리는 소리꾼이 고수의 북장단에 맞춰 노래와 말로 이야기를 들려주는 공연입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-123",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "한글 소설",
+    "q": "조선 후기 한글 소설이 널리 읽힌 모습에서 알 수 있는 변화는 무엇인가요?",
+    "options": [
+      "모든 사람이 책 읽기를 금지당했다",
+      "한글이 처음 만들어졌다",
+      "문화를 즐기는 사람들의 범위가 넓어졌다",
+      "목판 인쇄가 처음 등장했다"
+    ],
+    "answer": 2,
+    "explain": "한글 소설 등 서민 문화가 확산되면서 문화를 즐기는 계층이 넓어졌습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-124",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "김만덕",
+    "q": "제주에서 굶주린 사람들을 돕기 위해 재산을 내놓은 상인은 누구인가요?",
+    "options": [
+      "신사임당",
+      "유관순",
+      "선덕여왕",
+      "김만덕"
+    ],
+    "answer": 3,
+    "explain": "김만덕은 제주에 큰 흉년이 들었을 때 자신의 재산으로 사람들을 도왔습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-125",
+    "unit": "공통 학습 주제 5. 조선의 전쟁과 후기 사회 변화",
+    "era": "조선 후기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "장시",
+    "q": "조선 후기 여러 물건을 사고파는 장시가 늘어난 것과 관련 있는 변화는 무엇인가요?",
+    "options": [
+      "상업의 발달",
+      "농사의 완전한 중단",
+      "교역의 전면 금지",
+      "모든 화폐의 소멸"
+    ],
+    "answer": 0,
+    "explain": "조선 후기에는 상품 거래가 늘면서 장시와 상업이 발달했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_30"
+  },
+  {
+    "id": "seed-126",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "흥선 대원군",
+    "q": "고종이 어린 나이에 왕이 되자 정치를 이끈 인물은 누구인가요?",
+    "options": [
+      "정약용",
+      "흥선 대원군",
+      "전봉준",
+      "서재필"
+    ],
+    "answer": 1,
+    "explain": "흥선 대원군은 어린 고종을 대신해 정치를 이끌었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-127",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "유적",
+    "subject": "경복궁 중건",
+    "q": "흥선 대원군이 왕실의 권위를 높이려고 다시 크게 지은 궁궐은 무엇인가요?",
+    "options": [
+      "경희궁",
+      "창경궁",
+      "경복궁",
+      "덕수궁"
+    ],
+    "answer": 2,
+    "explain": "흥선 대원군은 임진왜란 때 불탄 경복궁을 다시 지었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-128",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "서원 정리",
+    "q": "흥선 대원군이 많은 서원을 없앤 목적 중 하나는 무엇인가요?",
+    "options": [
+      "모든 교육을 영원히 금지하려고",
+      "모든 농지를 바다로 바꾸려고",
+      "외국에 궁궐을 팔려고",
+      "백성의 부담을 줄이고 국가 권력을 강화하려고"
+    ],
+    "answer": 3,
+    "explain": "서원 정리는 일부 서원의 폐단을 줄이고 국가 권력을 강화하려는 정책이었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-129",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "병인양요",
+    "q": "1866년 프랑스군이 강화도를 침략한 사건은 무엇인가요?",
+    "options": [
+      "병인양요",
+      "신미양요",
+      "갑신정변",
+      "을사늑약"
+    ],
+    "answer": 0,
+    "explain": "병인양요는 1866년에 프랑스군이 강화도를 침략한 사건입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-130",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "신미양요",
+    "q": "1871년 미국 함대가 강화도를 침략한 사건은 무엇인가요?",
+    "options": [
+      "병인양요",
+      "신미양요",
+      "임오군란",
+      "3·1 운동"
+    ],
+    "answer": 1,
+    "explain": "신미양요는 1871년에 미국 함대가 강화도를 침략한 사건입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-131",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "강화도 조약",
+    "q": "1876년 조선이 일본과 맺고 항구를 연 조약은 무엇인가요?",
+    "options": [
+      "정전 협정",
+      "을사늑약",
+      "강화도 조약",
+      "한일 병합 조약"
+    ],
+    "answer": 2,
+    "explain": "강화도 조약은 조선이 일본과 맺은 불평등 조약으로 개항의 계기가 됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-132",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "불평등 조약",
+    "q": "강화도 조약을 불평등 조약이라고 부르는 까닭은 무엇인가요?",
+    "options": [
+      "두 나라의 권리가 완전히 같았기 때문",
+      "조약에 날짜가 없었기 때문",
+      "조선이 일본의 수도를 정했기 때문",
+      "일본에 유리한 권리가 포함됐기 때문"
+    ],
+    "answer": 3,
+    "explain": "강화도 조약에는 일본인이 조선에서 누리는 특권 등 불평등한 내용이 들어 있었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-133",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "개항",
+    "q": "개항의 뜻으로 알맞은 것은 무엇인가요?",
+    "options": [
+      "외국 배가 드나들고 무역할 수 있도록 항구를 여는 것",
+      "궁궐의 문을 모두 닫는 것",
+      "농민에게 군역만 늘리는 것",
+      "책을 모두 외국에 보내는 것"
+    ],
+    "answer": 0,
+    "explain": "개항은 항구를 열어 외국과 통상할 수 있게 하는 것입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-134",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "유적",
+    "subject": "인천 개항장",
+    "q": "1883년에 항구가 열린 뒤 여러 근대 시설이 들어선 도시는 어디인가요?",
+    "options": [
+      "경주",
+      "인천",
+      "개성",
+      "평양"
+    ],
+    "answer": 1,
+    "explain": "인천은 1883년 개항 이후 외국 상인과 새로운 시설이 들어서며 변화했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-135",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "갑신정변",
+    "q": "1884년 김옥균 등이 빠른 근대적 개혁을 이루려다 실패한 사건은 무엇인가요?",
+    "options": [
+      "병자호란",
+      "귀주 대첩",
+      "갑신정변",
+      "광주 학생 항일 운동"
+    ],
+    "answer": 2,
+    "explain": "김옥균 등 급진 개화파는 갑신정변으로 근대적 개혁을 추진하려 했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-136",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "김옥균",
+    "q": "갑신정변을 주도한 개화파 인물은 누구인가요?",
+    "options": [
+      "최무선",
+      "김정호",
+      "대조영",
+      "김옥균"
+    ],
+    "answer": 3,
+    "explain": "김옥균은 근대적 개혁을 추진하려 한 급진 개화파의 대표 인물입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-137",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "동학 농민 운동",
+    "q": "1894년 농민들이 잘못된 정치와 외세의 침략에 맞서 일으킨 운동은 무엇인가요?",
+    "options": [
+      "동학 농민 운동",
+      "물산 장려 운동",
+      "국채 보상 운동",
+      "나당 전쟁"
+    ],
+    "answer": 0,
+    "explain": "동학 농민 운동은 농민들이 사회의 모순과 외세의 침략에 맞서 일으킨 운동입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-138",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "전봉준",
+    "q": "동학 농민 운동을 이끈 대표 인물은 누구인가요?",
+    "options": [
+      "윤봉길",
+      "전봉준",
+      "안중근",
+      "서희"
+    ],
+    "answer": 1,
+    "explain": "전봉준은 동학 농민군을 이끈 대표적인 지도자입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-139",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "사건",
+    "subject": "갑오개혁",
+    "q": "1894년부터 추진되며 신분제 폐지 등을 내세운 개혁은 무엇인가요?",
+    "options": [
+      "공민왕의 개혁",
+      "광해군의 중립 외교",
+      "갑오개혁",
+      "6월 민주 항쟁"
+    ],
+    "answer": 2,
+    "explain": "갑오개혁은 신분제 폐지 등 근대적인 제도 개혁을 추진했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-140",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "생활·문화",
+    "subject": "신분제 폐지",
+    "q": "갑오개혁에서 신분제를 없앤다는 내용과 관련 있는 생각은 무엇인가요?",
+    "options": [
+      "양반에게만 모든 권리를 준다",
+      "노비 신분을 더 늘린다",
+      "서로 다른 집안 사람은 만나지 못한다",
+      "태어날 때의 신분만으로 사람을 차별하지 않는다"
+    ],
+    "answer": 3,
+    "explain": "신분제 폐지는 태어난 신분에 따라 사람을 구분하고 차별하는 제도를 없애려는 조치였습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-141",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "인물",
+    "subject": "서재필",
+    "q": "독립신문 발간과 독립협회 활동에 참여한 인물은 누구인가요?",
+    "options": [
+      "서재필",
+      "왕건",
+      "허준",
+      "장영실"
+    ],
+    "answer": 0,
+    "explain": "서재필은 독립신문을 발간하고 독립협회 활동을 이끌었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-142",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "개항기",
+    "country": "조선",
+    "category": "유물",
+    "subject": "독립신문",
+    "q": "1896년에 창간되어 한글 기사 등으로 소식을 전한 신문은 무엇인가요?",
+    "options": [
+      "삼국유사",
+      "독립신문",
+      "경국대전",
+      "농사직설"
+    ],
+    "answer": 1,
+    "explain": "독립신문은 한글 기사와 영문 지면 등을 통해 소식과 개혁 주장을 전했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-143",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "대한제국",
+    "country": "대한제국",
+    "category": "사건",
+    "subject": "대한제국 선포",
+    "q": "고종이 황제로 즉위하고 대한제국을 선포한 해는 언제인가요?",
+    "options": [
+      "1392년",
+      "1446년",
+      "1897년",
+      "1953년"
+    ],
+    "answer": 2,
+    "explain": "고종은 1897년에 황제로 즉위하고 나라 이름을 대한제국으로 바꿨습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-144",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "대한제국",
+    "country": "대한제국",
+    "category": "인물",
+    "subject": "고종",
+    "q": "대한제국을 선포하고 황제가 된 인물은 누구인가요?",
+    "options": [
+      "순조",
+      "영조",
+      "성종",
+      "고종"
+    ],
+    "answer": 3,
+    "explain": "고종은 대한제국의 첫 황제가 됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-145",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "대한제국",
+    "country": "대한제국",
+    "category": "사건",
+    "subject": "광무개혁",
+    "q": "대한제국이 나라의 힘을 기르기 위해 추진한 개혁은 무엇인가요?",
+    "options": [
+      "광무개혁",
+      "갑신정변",
+      "노비안검법",
+      "탕평책"
+    ],
+    "answer": 0,
+    "explain": "대한제국은 광무개혁을 통해 여러 근대적 제도를 마련하려 했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-146",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "대한제국",
+    "country": "대한제국",
+    "category": "생활·문화",
+    "subject": "근대 시설",
+    "q": "개항 이후 사람들의 이동 방식을 바꾼 새로운 교통수단은 무엇인가요?",
+    "options": [
+      "가마와 소달구지",
+      "전차와 기차",
+      "뗏목과 나룻배",
+      "말과 조랑말"
+    ],
+    "answer": 1,
+    "explain": "개항 이후 전차와 철도 등이 들어와 사람과 물자의 이동에 변화가 생겼습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-147",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "대한제국",
+    "country": "대한제국",
+    "category": "생활·문화",
+    "subject": "근대 학교",
+    "q": "개항 이후 등장한 근대 학교의 교육 모습으로 알맞은 것은 무엇인가요?",
+    "options": [
+      "읽기와 쓰기를 모두 금지했다",
+      "모든 학생에게 군사 작전만 가르쳤다",
+      "새로운 교과와 지식을 가르쳤다",
+      "신석기 도구 만들기만 가르쳤다"
+    ],
+    "answer": 2,
+    "explain": "근대 학교에서는 외국어·수학·과학 등 새로운 지식을 가르쳤습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-148",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "대한제국",
+    "country": "대한제국",
+    "category": "사건",
+    "subject": "을사늑약",
+    "q": "1905년에 일본이 강제로 맺게 해 대한제국의 외교권을 빼앗은 조약은 무엇인가요?",
+    "options": [
+      "강화도 조약",
+      "정전 협정",
+      "조미 수호 통상 조약",
+      "을사늑약"
+    ],
+    "answer": 3,
+    "explain": "일본은 1905년 을사늑약을 강요해 대한제국의 외교권을 빼앗았습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-149",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "대한제국",
+    "country": "대한제국",
+    "category": "인물",
+    "subject": "헤이그 특사",
+    "q": "고종이 헤이그에 특사를 보낸 목적은 무엇인가요?",
+    "options": [
+      "일본의 부당한 침략을 국제 사회에 알리려고",
+      "새로운 도자기를 수출하려고",
+      "한글을 처음 만들려고",
+      "고려를 다시 세우려고"
+    ],
+    "answer": 0,
+    "explain": "고종은 을사늑약의 부당함 등을 국제 사회에 알리고자 특사를 보냈습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-150",
+    "unit": "공통 학습 주제 6. 개항과 대한제국",
+    "era": "대한제국",
+    "country": "대한제국",
+    "category": "사건",
+    "subject": "국채 보상 운동",
+    "q": "일본에 진 빚을 국민의 힘으로 갚으려 한 운동은 무엇인가요?",
+    "options": [
+      "물산 장려 운동",
+      "국채 보상 운동",
+      "브나로드 운동",
+      "한글 맞춤법 통일 운동"
+    ],
+    "answer": 1,
+    "explain": "국채 보상 운동은 나라의 빚을 갚아 일본의 경제적 압박에서 벗어나려는 운동이었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-151",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "사건",
+    "subject": "국권 피탈",
+    "q": "일본이 대한제국의 국권을 강제로 빼앗은 해는 언제인가요?",
+    "options": [
+      "1897년",
+      "1945년",
+      "1910년",
+      "1950년"
+    ],
+    "answer": 2,
+    "explain": "1910년 일본의 강제 병합으로 우리나라는 국권을 빼앗겼습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-152",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "사건",
+    "subject": "3·1 운동",
+    "q": "1919년 3월 1일을 계기로 전국으로 퍼진 독립 만세 운동은 무엇인가요?",
+    "options": [
+      "동학 농민 운동",
+      "4·19 혁명",
+      "국채 보상 운동",
+      "3·1 운동"
+    ],
+    "answer": 3,
+    "explain": "3·1 운동은 독립을 바라는 뜻을 널리 알린 대규모 만세 운동이었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-153",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "인물",
+    "subject": "유관순",
+    "q": "아우내 장터 만세 운동에 참여한 독립운동가는 누구인가요?",
+    "options": [
+      "유관순",
+      "김만덕",
+      "선덕여왕",
+      "신사임당"
+    ],
+    "answer": 0,
+    "explain": "유관순은 아우내 장터의 만세 운동에 참여했으며 독립을 외쳤습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-154",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "유물",
+    "subject": "독립선언서",
+    "q": "3·1 운동 때 독립 의지를 알리기 위해 발표한 문서는 무엇인가요?",
+    "options": [
+      "훈민정음",
+      "독립선언서",
+      "경국대전",
+      "농사직설"
+    ],
+    "answer": 1,
+    "explain": "독립선언서는 우리 민족이 독립국의 국민임을 선언하고 독립 의지를 알린 문서입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-155",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "대한민국 임시 정부",
+    "category": "사건",
+    "subject": "대한민국 임시 정부 수립",
+    "q": "3·1 운동 이후 독립운동을 체계적으로 이끌기 위해 수립된 정부는 무엇인가요?",
+    "options": [
+      "조선 총독부",
+      "통감부",
+      "대한민국 임시 정부",
+      "고려 정부"
+    ],
+    "answer": 2,
+    "explain": "대한민국 임시 정부는 독립운동을 이어 가기 위해 1919년에 수립됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-156",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "대한민국 임시 정부",
+    "category": "유적",
+    "subject": "상하이",
+    "q": "1919년 대한민국 임시 정부가 수립된 중국의 도시는 어디인가요?",
+    "options": [
+      "도쿄",
+      "평양",
+      "부산",
+      "상하이"
+    ],
+    "answer": 3,
+    "explain": "대한민국 임시 정부는 중국 상하이에서 수립됐으며 이후 여러 지역으로 이동했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-157",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "대한민국 임시 정부",
+    "category": "인물",
+    "subject": "김구",
+    "q": "대한민국 임시 정부를 이끌고 독립운동에 힘쓴 인물은 누구인가요?",
+    "options": [
+      "김구",
+      "태종",
+      "근초고왕",
+      "장수왕"
+    ],
+    "answer": 0,
+    "explain": "김구는 대한민국 임시 정부의 지도자로 독립운동에 힘썼습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-158",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "대한제국",
+    "country": "대한제국",
+    "category": "인물",
+    "subject": "안중근",
+    "q": "1909년 하얼빈에서 이토 히로부미를 처단한 독립운동가는 누구인가요?",
+    "options": [
+      "윤봉길",
+      "안중근",
+      "김좌진",
+      "방정환"
+    ],
+    "answer": 1,
+    "explain": "안중근은 하얼빈 의거를 통해 일본의 침략에 저항했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-159",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "인물",
+    "subject": "윤봉길",
+    "q": "1932년 상하이 훙커우 공원에서 의거를 한 독립운동가는 누구인가요?",
+    "options": [
+      "이봉창",
+      "홍범도",
+      "윤봉길",
+      "전봉준"
+    ],
+    "answer": 2,
+    "explain": "윤봉길은 상하이 훙커우 공원 의거로 독립 의지를 알렸습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-160",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "인물",
+    "subject": "이봉창",
+    "q": "1932년 도쿄에서 일왕을 향해 폭탄을 던지는 의거를 한 인물은 누구인가요?",
+    "options": [
+      "서재필",
+      "김정호",
+      "문익점",
+      "이봉창"
+    ],
+    "answer": 3,
+    "explain": "이봉창은 일본 도쿄에서 의거를 하며 일본의 식민 지배에 저항했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-161",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "인물",
+    "subject": "홍범도",
+    "q": "1920년 봉오동 전투에서 활약한 독립군 지휘관은 누구인가요?",
+    "options": [
+      "홍범도",
+      "권율",
+      "을지문덕",
+      "강감찬"
+    ],
+    "answer": 0,
+    "explain": "홍범도 등 독립군은 봉오동 전투에서 일본군을 물리쳤습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-162",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "인물",
+    "subject": "김좌진",
+    "q": "1920년 청산리 전투에서 활약한 독립군 지휘관은 누구인가요?",
+    "options": [
+      "이성계",
+      "김좌진",
+      "최무선",
+      "장영실"
+    ],
+    "answer": 1,
+    "explain": "김좌진 등 독립군 지휘관들은 청산리 일대의 전투에서 활약했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-163",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "대한민국 임시 정부",
+    "category": "사건",
+    "subject": "한국광복군",
+    "q": "대한민국 임시 정부가 1940년에 충칭에서 창설한 군대는 무엇인가요?",
+    "options": [
+      "삼별초",
+      "화랑",
+      "한국광복군",
+      "훈련도감"
+    ],
+    "answer": 2,
+    "explain": "한국광복군은 대한민국 임시 정부가 중국 충칭에서 창설한 군대입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-164",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "유적",
+    "subject": "신흥 무관 학교",
+    "q": "만주에서 독립군을 길러 내는 데 기여한 학교는 무엇인가요?",
+    "options": [
+      "성균관",
+      "향교",
+      "서당",
+      "신흥 무관 학교"
+    ],
+    "answer": 3,
+    "explain": "신흥 무관 학교는 독립군 간부와 독립운동 인재를 길러 냈습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-165",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "생활·문화",
+    "subject": "우리말 지키기",
+    "q": "일제 강점기에 조선어 학회 등이 힘쓴 일은 무엇인가요?",
+    "options": [
+      "우리말과 글을 연구하고 지키는 일",
+      "한글을 처음 만드는 일",
+      "금속 활자를 처음 만드는 일",
+      "모든 책을 일본어로만 쓰는 일"
+    ],
+    "answer": 0,
+    "explain": "조선어 학회는 우리말과 글을 연구하고 사전 편찬 등을 추진했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-166",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "인물",
+    "subject": "주시경",
+    "q": "우리말과 글을 연구하고 한글 보급에 힘쓴 학자는 누구인가요?",
+    "options": [
+      "왕인",
+      "주시경",
+      "김부식",
+      "정몽주"
+    ],
+    "answer": 1,
+    "explain": "주시경은 국어 연구와 한글 보급에 힘쓴 학자입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-167",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "인물",
+    "subject": "윤동주",
+    "q": "하늘과 바람과 별과 시로 알려진 시인은 누구인가요?",
+    "options": [
+      "허준",
+      "김홍도",
+      "윤동주",
+      "김만덕"
+    ],
+    "answer": 2,
+    "explain": "윤동주는 일제 강점기에 시를 쓰며 자신의 삶과 시대를 성찰했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-168",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "인물",
+    "subject": "방정환",
+    "q": "어린이를 존중하는 사회를 만들고 어린이날을 알리는 데 힘쓴 인물은 누구인가요?",
+    "options": [
+      "최승로",
+      "장보고",
+      "정도전",
+      "방정환"
+    ],
+    "answer": 3,
+    "explain": "방정환은 어린이를 인격적으로 존중하자는 생각을 널리 알렸습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-169",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "사건",
+    "subject": "광주 학생 항일 운동",
+    "q": "1929년 광주에서 시작되어 전국으로 퍼진 학생들의 항일 운동은 무엇인가요?",
+    "options": [
+      "광주 학생 항일 운동",
+      "갑신정변",
+      "임오군란",
+      "나당 전쟁"
+    ],
+    "answer": 0,
+    "explain": "광주 학생 항일 운동은 학생들의 일본 식민 지배 반대 운동이었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-170",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "사건",
+    "subject": "물산 장려 운동",
+    "q": "우리 민족이 만든 물건을 쓰며 경제적 힘을 기르려 한 운동은 무엇인가요?",
+    "options": [
+      "국채 보상 운동",
+      "물산 장려 운동",
+      "동학 농민 운동",
+      "탕평 운동"
+    ],
+    "answer": 1,
+    "explain": "물산 장려 운동은 우리 상품을 이용해 민족 경제를 지키고자 했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-171",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "생활·문화",
+    "subject": "독립운동의 여러 방법",
+    "q": "독립운동의 모습으로 알맞은 것은 무엇인가요?",
+    "options": [
+      "독립군의 전투 한 가지 방법만 있었다",
+      "모든 활동이 국내에서만 이뤄졌다",
+      "외교·교육·문화·무장 투쟁 등 여러 방법으로 활동했다",
+      "학생은 누구도 참여하지 않았다"
+    ],
+    "answer": 2,
+    "explain": "독립운동은 국내외에서 다양한 사람들이 여러 방법으로 펼쳤습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-172",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "인물",
+    "subject": "전형필",
+    "q": "우리 문화유산이 흩어지는 것을 막고 수집·보존에 힘쓴 인물은 누구인가요?",
+    "options": [
+      "근초고왕",
+      "을지문덕",
+      "광종",
+      "전형필"
+    ],
+    "answer": 3,
+    "explain": "전형필은 일제 강점기에 우리 문화유산을 수집하고 지키는 데 힘썼습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-173",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "유적",
+    "subject": "서대문 형무소",
+    "q": "많은 독립운동가가 갇혀 고난을 겪은 장소로 오늘날 역사관이 된 곳은 어디인가요?",
+    "options": [
+      "서대문 형무소",
+      "경복궁",
+      "첨성대",
+      "청해진"
+    ],
+    "answer": 0,
+    "explain": "서대문 형무소는 독립운동가들의 저항과 고난을 기억하는 역사 현장입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-174",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "생활·문화",
+    "subject": "이주와 독립운동",
+    "q": "일제 강점기에 일부 우리 민족이 만주·연해주 등으로 옮겨 간 까닭으로 알맞은 것은 무엇인가요?",
+    "options": [
+      "모든 사람이 관광만 하려고",
+      "생계를 찾거나 독립운동을 이어 가기 위해서",
+      "고조선을 세우기 위해서",
+      "청동을 처음 만들기 위해서"
+    ],
+    "answer": 1,
+    "explain": "일부 사람들은 어려운 생활을 벗어나거나 독립운동을 하기 위해 국외로 이주했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-175",
+    "unit": "공통 학습 주제 7. 일제 강점기와 독립운동",
+    "era": "일제 강점기",
+    "country": "일제 강점기",
+    "category": "사건",
+    "subject": "광복을 위한 노력",
+    "q": "광복을 이해하는 태도로 알맞은 것은 무엇인가요?",
+    "options": [
+      "한 사람의 행동만으로 설명한다",
+      "독립운동은 전혀 없었다고 생각한다",
+      "많은 사람의 독립운동과 국제 정세를 함께 살핀다",
+      "국제 정세와는 아무 관련이 없다고 생각한다"
+    ],
+    "answer": 2,
+    "explain": "광복에는 끊임없는 독립운동과 제2차 세계 대전에서 일본이 패배한 국제적 상황 등이 함께 작용했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_40"
+  },
+  {
+    "id": "seed-176",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "광복",
+    "q": "우리나라가 일제의 식민 지배에서 벗어나 광복을 맞은 날은 언제인가요?",
+    "options": [
+      "1910년 8월 29일",
+      "1919년 3월 1일",
+      "1950년 6월 25일",
+      "1945년 8월 15일"
+    ],
+    "answer": 3,
+    "explain": "우리나라는 1945년 8월 15일 광복을 맞았습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-177",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "생활·문화",
+    "subject": "광복의 뜻",
+    "q": "광복의 뜻으로 가장 알맞은 것은 무엇인가요?",
+    "options": [
+      "빼앗긴 나라와 주권을 되찾음",
+      "새 궁궐을 지음",
+      "최초로 농사를 지음",
+      "외국과 항구를 엶"
+    ],
+    "answer": 0,
+    "explain": "광복은 식민 지배에서 벗어나 빼앗긴 나라와 주권을 되찾는 것을 뜻합니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-178",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "광복 이후 분단",
+    "q": "광복 직후 한반도의 남북을 나누어 점령한 두 나라는 어디인가요?",
+    "options": [
+      "프랑스와 영국",
+      "미국과 소련",
+      "청과 일본",
+      "신라와 발해"
+    ],
+    "answer": 1,
+    "explain": "광복 직후 미군은 남쪽에, 소련군은 북쪽에 들어왔습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-179",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "38도선",
+    "q": "광복 직후 미군과 소련군의 점령 경계가 된 선은 무엇인가요?",
+    "options": [
+      "적도",
+      "동경 135도선",
+      "북위 38도선",
+      "남위 30도선"
+    ],
+    "answer": 2,
+    "explain": "광복 직후 한반도는 북위 38도선을 경계로 남북으로 나뉘었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-180",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "인물",
+    "subject": "김구의 통일 정부 노력",
+    "q": "광복 후 김구 등이 남북 협상에 참여한 목적은 무엇인가요?",
+    "options": [
+      "다시 식민지가 되려고",
+      "백제를 다시 세우려고",
+      "농사를 전면 금지하려고",
+      "분단을 막고 통일 정부를 세우려고"
+    ],
+    "answer": 3,
+    "explain": "김구 등은 분단을 막고 통일된 정부를 세우기 위해 노력했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-181",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "5·10 총선거",
+    "q": "1948년 5월 10일 남한에서 실시한 선거로 뽑은 사람들은 누구인가요?",
+    "options": [
+      "제헌 국회 의원",
+      "고려의 왕",
+      "조선의 수령",
+      "발해의 사신"
+    ],
+    "answer": 0,
+    "explain": "5·10 총선거는 헌법을 만들 제헌 국회 의원을 선출한 선거입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-182",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "생활·문화",
+    "subject": "제헌 국회의 역할",
+    "q": "제헌 국회가 한 중요한 일은 무엇인가요?",
+    "options": [
+      "훈민정음을 만들었다",
+      "대한민국 헌법을 만들었다",
+      "고려를 세웠다",
+      "강화도 조약을 맺었다"
+    ],
+    "answer": 1,
+    "explain": "제헌 국회는 대한민국의 기본 법인 헌법을 만들었습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-183",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "헌법 제정",
+    "q": "대한민국의 헌법이 처음 제정된 날을 기념하는 날은 언제인가요?",
+    "options": [
+      "3월 1일 삼일절",
+      "10월 9일 한글날",
+      "7월 17일 제헌절",
+      "5월 5일 어린이날"
+    ],
+    "answer": 2,
+    "explain": "제헌절은 1948년 7월 17일 헌법을 제정한 것을 기념하는 날입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-184",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "정부 수립",
+    "q": "대한민국 정부 수립을 선포한 날은 언제인가요?",
+    "options": [
+      "1945년 8월 15일",
+      "1919년 3월 1일",
+      "1953년 7월 27일",
+      "1948년 8월 15일"
+    ],
+    "answer": 3,
+    "explain": "대한민국 정부는 1948년 8월 15일 수립을 선포했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-185",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "인물",
+    "subject": "초대 대통령",
+    "q": "대한민국의 초대 대통령은 누구인가요?",
+    "options": [
+      "이승만",
+      "고종",
+      "왕건",
+      "세종"
+    ],
+    "answer": 0,
+    "explain": "제헌 국회는 이승만을 초대 대통령으로 선출했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-186",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "생활·문화",
+    "subject": "민주공화국",
+    "q": "대한민국이 민주공화국이라는 뜻에 알맞은 것은 무엇인가요?",
+    "options": [
+      "왕의 자손만 나라의 주인이다",
+      "나라의 주인이 국민이고 국민을 위한 정치가 이뤄져야 한다",
+      "국민은 정치에 참여할 수 없다",
+      "한 신분만 법의 보호를 받는다"
+    ],
+    "answer": 1,
+    "explain": "민주공화국에서는 주권이 국민에게 있으며 국민을 위한 정치를 지향합니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-187",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "6·25 전쟁 발발",
+    "q": "6·25 전쟁이 시작된 해는 언제인가요?",
+    "options": [
+      "1910년",
+      "1932년",
+      "1950년",
+      "1960년"
+    ],
+    "answer": 2,
+    "explain": "6·25 전쟁은 1950년 6월 25일에 시작됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-188",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "전쟁의 시작",
+    "q": "1950년 6월 25일 전쟁은 어떤 일로 시작됐나요?",
+    "options": [
+      "신라가 당나라와 싸웠다",
+      "일본군이 부산에 처음 상륙했다",
+      "프랑스군이 강화도를 침략했다",
+      "북한군이 38도선을 넘어 남한을 침공했다"
+    ],
+    "answer": 3,
+    "explain": "6·25 전쟁은 북한군의 남침으로 시작됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-189",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "유엔군 참전",
+    "q": "6·25 전쟁 때 대한민국을 돕기 위해 여러 나라 군대가 함께 구성한 군대는 무엇인가요?",
+    "options": [
+      "유엔군",
+      "삼별초",
+      "화랑",
+      "의열단"
+    ],
+    "answer": 0,
+    "explain": "국제연합은 대한민국을 지원하기 위해 유엔군 파견을 결정했습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-190",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "유적",
+    "subject": "부산 임시 수도",
+    "q": "6·25 전쟁 중 대한민국의 임시 수도 역할을 한 도시는 어디인가요?",
+    "options": [
+      "경주",
+      "부산",
+      "공주",
+      "개성"
+    ],
+    "answer": 1,
+    "explain": "부산은 6·25 전쟁 중 임시 수도로서 정부와 피란민들이 머문 도시입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-191",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "인천 상륙 작전",
+    "q": "1950년 9월 유엔군이 전세를 바꾸는 계기를 마련한 작전은 무엇인가요?",
+    "options": [
+      "살수 대첩",
+      "귀주 대첩",
+      "인천 상륙 작전",
+      "한산도 대첩"
+    ],
+    "answer": 2,
+    "explain": "1950년 9월의 인천 상륙 작전은 전쟁의 흐름을 바꾸는 중요한 계기가 됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-192",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "중국군 참전",
+    "q": "6·25 전쟁 중 북한을 지원하기 위해 참전한 군대는 무엇인가요?",
+    "options": [
+      "백제군",
+      "고려군",
+      "청해진 군대",
+      "중국군"
+    ],
+    "answer": 3,
+    "explain": "중국군의 참전으로 전쟁은 새로운 국면에 들어갔습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-193",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "사건",
+    "subject": "정전 협정",
+    "q": "6·25 전쟁의 전투를 멈추기 위한 정전 협정을 맺은 해는 언제인가요?",
+    "options": [
+      "1953년",
+      "1945년",
+      "1919년",
+      "1897년"
+    ],
+    "answer": 0,
+    "explain": "1953년 7월 27일 정전 협정이 체결됐습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-194",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "생활·문화",
+    "subject": "정전과 종전",
+    "q": "정전의 뜻으로 알맞은 것은 무엇인가요?",
+    "options": [
+      "전쟁의 모든 문제가 완전히 해결된 것",
+      "전쟁 중의 전투를 멈추는 것",
+      "나라가 새 문자를 만드는 것",
+      "왕이 수도를 옮기는 것"
+    ],
+    "answer": 1,
+    "explain": "정전은 전투를 멈추는 것으로, 전쟁을 공식적으로 끝내는 종전과 구별됩니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-195",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "유적",
+    "subject": "판문점",
+    "q": "정전 협정과 남북 대화의 역사 현장으로 알려진 곳은 어디인가요?",
+    "options": [
+      "불국사",
+      "서당",
+      "판문점",
+      "청해진"
+    ],
+    "answer": 2,
+    "explain": "판문점은 정전과 남북 대화의 역사를 살필 수 있는 장소입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-196",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "유적",
+    "subject": "비무장 지대",
+    "q": "정전 협정에 따라 군사분계선 주변에 설정한 구역은 무엇인가요?",
+    "options": [
+      "개항장",
+      "독립 공원",
+      "왕궁 정원",
+      "비무장 지대"
+    ],
+    "answer": 3,
+    "explain": "비무장 지대는 정전 협정에 따라 군사분계선 남북에 설정한 구역입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-197",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "생활·문화",
+    "subject": "이산가족",
+    "q": "전쟁과 분단으로 서로 떨어져 만나기 어려워진 가족을 무엇이라고 하나요?",
+    "options": [
+      "이산가족",
+      "대가족",
+      "왕실 가족",
+      "상인 가족"
+    ],
+    "answer": 0,
+    "explain": "이산가족은 전쟁이나 분단 등으로 헤어져 만나기 어려운 가족입니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-198",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "생활·문화",
+    "subject": "피란 생활",
+    "q": "6·25 전쟁 때 사람들이 피란을 떠난 가장 직접적인 까닭은 무엇인가요?",
+    "options": [
+      "새로운 농사법만 배우려고",
+      "전쟁의 위험을 피해 안전한 곳을 찾으려고",
+      "과거 시험을 보려고",
+      "왕의 행차를 구경하려고"
+    ],
+    "answer": 1,
+    "explain": "많은 사람은 전쟁의 위험에서 벗어나기 위해 삶의 터전을 떠났습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-199",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "생활·문화",
+    "subject": "전쟁의 피해",
+    "q": "6·25 전쟁이 사람들의 생활에 끼친 영향으로 알맞은 것은 무엇인가요?",
+    "options": [
+      "모든 지역에서 피해가 전혀 없었다",
+      "모든 가족이 자동으로 다시 만났다",
+      "집과 학교 등이 파괴되고 많은 사람이 고통을 겪었다",
+      "모든 학교가 새로 완성됐다"
+    ],
+    "answer": 2,
+    "explain": "전쟁은 사람들의 생명과 생활 터전에 큰 피해를 남겼습니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  },
+  {
+    "id": "seed-200",
+    "unit": "공통 학습 주제 8. 광복과 대한민국 정부 수립·6·25 전쟁",
+    "era": "현대",
+    "country": "대한민국",
+    "category": "생활·문화",
+    "subject": "평화의 가치",
+    "q": "전쟁과 분단의 역사를 배우며 실천할 태도로 알맞은 것은 무엇인가요?",
+    "options": [
+      "다른 생각을 가진 사람을 무조건 적으로 본다",
+      "전쟁 피해를 놀이처럼 가볍게 여긴다",
+      "사실 확인 없이 소문을 퍼뜨린다",
+      "대화와 협력으로 갈등을 해결하려 노력한다"
+    ],
+    "answer": 3,
+    "explain": "전쟁의 고통을 기억하고 생명과 인권을 존중하며 평화를 위해 노력하는 태도가 필요합니다.",
+    "source": "https://contents.history.go.kr/mobile/eh/list.do?code=eh_age_50"
+  }
+]
