@@ -1,7 +1,8 @@
 import {env} from 'cloudflare:workers';
+import {territoryRules,scoreTerritories,capitalIndices,startAtCapitals} from '../../../lib/game-geography';
 import seeds from '../../../questions.json';
-type Question={id:string;unit:string;era:string;country:string;category:string;subject:string;q:string;options:string[];answer:number;explain:string;source:string;status:string;authorName:string;authorTeam:number;authorId:string;reason?:string};
-type State={title:string;mapStyle:number;epoch:number;paused:boolean;questions:Question[];territories:{id:string;owner:number|null;version:number}[];players:Record<string,{nickname:string;team:number;solvedIds?:string[]}>;challenges:Record<string,{player:string;territory:string;version:number;epoch:number;expires:number}>;events:{text:string;at:number}[];cooldowns:Record<string,number>};
+type Question={id:string;unit:string;era:string;country:string;category:string;subject:string;q:string;options:string[];answer:number;explain:string;source:string;status:string;authorName:string;authorTeam:number;authorId:string;reason?:string;territoryId?:string};
+type State={mapVersion?:number;title:string;mapStyle:number;epoch:number;paused:boolean;questions:Question[];territories:{id:string;owner:number|null;version:number;questionId?:string}[];players:Record<string,{nickname:string;team:number;solvedIds?:string[]}>;challenges:Record<string,{player:string;territory:string;version:number;epoch:number;expires:number}>;events:{text:string;at:number}[];cooldowns:Record<string,number>};
 type Row={code:string;teacher_hash:string;state:string;revision:number};
 const names=['고구려','백제','신라','가야'];
 class GameError extends Error{constructor(message:string,public status=400){super(message)}}
@@ -33,14 +34,16 @@ async function mutate(code:string,fn:(s:State,row:Row)=>any){
  }
  fail('친구들의 활동을 반영 중입니다. 한 번 더 눌러 주세요.',409);
 }
+function upgrade(s:State){if(s.mapVersion===2)return false;for(let i=0;i<300;i++)s.territories.push({id:'wild-'+String(i+1).padStart(3,'0'),owner:null,version:0});s.mapVersion=2;if(s.territories.every(t=>t.owner===null))startAtCapitals(s.territories);return true}
+const questionFor=(s:State,t:State['territories'][number])=>s.questions.find(q=>q.id===(t.questionId||t.id)&&q.status==='approved');
 async function handle(req:Request){
  const url=new URL(req.url),hash=await digest(req.headers.get('Authorization')?.replace(/^Bearer /,'')||'');
  if(req.method==='GET'){
   const code=(url.searchParams.get('room')||'').toUpperCase(),row=await db().prepare('SELECT * FROM game_rooms WHERE code=?').bind(code).first<Row>();if(!row)fail('방을 찾지 못했습니다.',404);
-  const s:State=JSON.parse(row!.state),a=auth(row!,s,hash);
+  let s:State=JSON.parse(row!.state);const a=auth(row!,s,hash);if(s.mapVersion!==2)s=await mutate(code,(state)=>{upgrade(state);return state});
   if(url.searchParams.get('view')==='bank')return json({questions:s.questions.filter(q=>a.teacher||q.status==='approved'||q.authorId===a.id).map(q=>publicQ(q,a.teacher||q.authorId===a.id))});
-  const map=new Map(s.questions.map(q=>[q.id,q]));
-  return json({code,title:s.title,mapStyle:s.mapStyle,epoch:s.epoch,paused:s.paused,revision:row!.revision,me:{teacher:a.teacher,nickname:a.nickname,team:a.team,solvedIds:a.teacher?[]:s.players[a.id].solvedIds||[]},players:Object.values(s.players),territories:s.territories.map(t=>{const q=map.get(t.id)!;return {...t,unit:q.unit,era:q.era,country:q.country,category:q.category,subject:q.subject}}),pending:s.questions.filter(q=>q.status==='pending'&&(a.teacher||q.authorId===a.id)).map(q=>publicQ(q,true)),events:s.events,bankCount:s.questions.filter(q=>q.status==='approved').length});
+  const homes=capitalIndices(s.territories.length),rules=territoryRules(s.territories.length);
+  return json({code,title:s.title,mapStyle:s.mapStyle,epoch:s.epoch,paused:s.paused,revision:row!.revision,me:{teacher:a.teacher,nickname:a.nickname,team:a.team,solvedIds:a.teacher?[]:s.players[a.id].solvedIds||[]},players:Object.values(s.players),scores:scoreTerritories(s.territories),territories:s.territories.map((t,i)=>{const q=questionFor(s,t);return {...t,...rules[i],capitalTeam:homes.includes(i)?homes.indexOf(i):null,questionId:q?.id||null,wilderness:!q,unit:q?.unit||'',era:q?.era||'',country:q?.country||'',category:q?.category||'미개척지',subject:q?.subject||'미개척지 '+(i+1)}}),pending:s.questions.filter(q=>q.status==='pending'&&(a.teacher||q.authorId===a.id)).map(q=>publicQ(q,true)),events:s.events,bankCount:s.questions.filter(q=>q.status==='approved').length});
  }
  const raw=await req.text();if(raw.length>30000)fail('입력 내용이 너무 큽니다.',413);let b:any;try{b=JSON.parse(raw)}catch{fail('요청 형식을 확인해 주세요.')}
  const action=b.action;
@@ -49,7 +52,7 @@ async function handle(req:Request){
   for(let i=0;i<5;i++){
    const letters='ABCDEFGHJKLMNPQRSTUVWXYZ23456789',code=Array.from(crypto.getRandomValues(new Uint8Array(6)),v=>letters[v%letters.length]).join('');
    const questions=(seeds as any[]).map(q=>({...q,status:'approved',authorName:'기본 문제은행',authorTeam:-1,authorId:'seed'}));
-   const s:State={title,mapStyle:0,epoch:0,paused:false,questions,territories:questions.map(q=>({id:q.id,owner:null,version:0})),players:{},challenges:{},cooldowns:{},events:[{text:'모든 땅이 중립으로 열렸어요. 우리 역사의 첫 장을 함께 시작해요!',at:Date.now()}]};
+   const s:State={mapVersion:2,title,mapStyle:0,epoch:0,paused:false,questions,territories:startAtCapitals([...questions.map(q=>({id:q.id,owner:null as number|null,version:0})),...Array.from({length:300},(_,i)=>({id:"wild-"+String(i+1).padStart(3,"0"),owner:null as number|null,version:0}))]),players:{},challenges:{},cooldowns:{},events:[{text:'네 나라는 수도 근처에서 시작해요. 문제 영토 200칸과 미개척지 300칸을 탐험하세요!',at:Date.now()}]};
    const r=await db().prepare('INSERT OR IGNORE INTO game_rooms(code,teacher_hash,state,revision,created_at) VALUES(?,?,?,0,?)').bind(code,teacherHash,JSON.stringify(s),Date.now()).run();if(r.meta.changes===1)return json({code,token,role:'teacher'});
   }fail('방 생성이 잠시 지연됩니다. 다시 시도해 주세요.',503);
  }
@@ -60,34 +63,36 @@ async function handle(req:Request){
   await mutate(code,s=>{if(Object.keys(s.players).length>=100)fail('이 방의 참가 인원이 가득 찼습니다.');if(Object.values(s.players).some(p=>p.nickname.toLocaleLowerCase()===nickname.toLocaleLowerCase()))fail('이미 사용 중인 별명입니다. 다른 별명을 써 주세요.');s.players[id]={nickname,team};log(s,names[team]+'의 '+nickname+' 님이 입장했어요.');return null});return json({code,token,role:'student'});
  }
  return json(await mutate(code,(s,row)=>{
-  const a=auth(row,s,hash);
+  const a=auth(row,s,hash);upgrade(s);
   if(action==='leave'){if(!a.teacher){delete s.players[a.id];for(const [k,c] of Object.entries(s.challenges))if(c.player===a.id)delete s.challenges[k];log(s,a.nickname+' 님이 퇴장했어요.')}return {ok:true}}
   if(action==='settings'){teacher(a);if(b.mapStyle!==undefined){if(!Number.isInteger(b.mapStyle)||b.mapStyle<0||b.mapStyle>2)fail('지도 색상을 선택해 주세요.');s.mapStyle=b.mapStyle}if(b.paused!==undefined)s.paused=!!b.paused;return {ok:true}}
-  if(action==='reset'){teacher(a);s.epoch++;s.territories=s.territories.map(t=>({...t,owner:null,version:t.version+1}));s.challenges={};s.cooldowns={};log(s,'선생님이 영토를 초기화했어요. 문제은행은 그대로 보관됩니다.');return {ok:true}}
+  if(action==='reset'){teacher(a);s.epoch++;s.territories=startAtCapitals(s.territories.map(t=>({...t,owner:null,version:t.version+1})));s.challenges={};s.cooldowns={};log(s,'선생님이 영토를 초기화했어요. 네 나라는 수도 근처에서 다시 시작하며 문제은행은 보관됩니다.');return {ok:true}}
   if(action==='submit'){
    if(s.paused)fail('잠시 쉬는 중이에요. 선생님이 다시 열어 주시면 참여해요.');if(s.questions.length>=800)fail('문제은행이 가득 찼습니다. 새 방을 만들어 주세요.');
    const q=validateQuestion(b.question),team=a.teacher?Number(b.authorTeam):a.team;if(!Number.isInteger(team)||team<0||team>3)fail('출제할 나라를 선택해 주세요.');
    if(s.questions.some(x=>x.q===q.q&&x.status!=='rejected'))fail('같은 문제가 이미 등록되어 있어요. 다른 문제를 만들어 주세요.');if(s.questions.filter(x=>x.authorId===a.id&&x.status==='pending').length>=10)fail('승인 대기 문제를 먼저 확인해 주세요.');
-   const id='q-'+random();s.questions.push({...q,id,status:'pending',authorName:a.nickname,authorTeam:team,authorId:a.id});log(s,a.nickname+' 님이 새 문제의 승인을 요청했어요.');return {ok:true,message:'등록 완료! 선생님이 승인하면 새 영토가 우리 나라에 추가돼요.'};
+   const territoryId=typeof b.territoryId==='string'?b.territoryId:undefined;if(territoryId){const target=s.territories.find(t=>t.id===territoryId);if(!target||questionFor(s,target))fail('다른 미개척지를 선택해 주세요.');if(target!.owner!==null&&target!.owner!==team)fail('다른 나라의 시작 영토에는 출제할 수 없어요.');}
+   const id='q-'+random();s.questions.push({...q,id,territoryId,status:'pending',authorName:a.nickname,authorTeam:team,authorId:a.id});log(s,a.nickname+' 님이 새 문제의 승인을 요청했어요.');return {ok:true,message:'등록 완료! 선생님이 승인하면 새 영토가 우리 나라에 추가돼요.'};
   }
   if(action==='review'){
    teacher(a);const q=s.questions.find(q=>q.id===b.id&&q.status==='pending');if(!q)fail('이미 검토한 문제입니다.',409);
-   if(b.approve){if(b.question)Object.assign(q!,validateQuestion(b.question));q!.status='approved';s.territories.push({id:q!.id,owner:q!.authorTeam,version:0});log(s,names[q!.authorTeam]+'의 '+q!.authorName+' 님이 만든 문제가 승인되어 새 영토를 확보했어요.');return {ok:true,message:'승인 완료! 문제은행과 새 영토에 반영했어요.'}}
+   if(b.approve){if(b.question)Object.assign(q!,validateQuestion(b.question));q!.status='approved';const target=q!.territoryId?s.territories.find(t=>t.id===q!.territoryId):s.territories.find(t=>!questionFor(s,t)&&t.owner===null);if(q!.territoryId&&(!target||questionFor(s,target)||target.owner!==null&&target.owner!==q!.authorTeam))fail('선택한 미개척지가 먼저 개발됐어요. 학생에게 다른 지역으로 다시 등록하도록 안내해 주세요.',409);if(target){target.questionId=q!.id;target.owner=q!.authorTeam;target.version++}else s.territories.push({id:q!.id,owner:q!.authorTeam,version:0});log(s,names[q!.authorTeam]+'의 '+q!.authorName+' 님이 만든 문제가 승인되어 새 영토를 확보했어요.');return {ok:true,message:'승인 완료! 문제은행과 새 영토에 반영했어요.'}}
    q!.status='rejected';q!.reason=String(b.reason||'문제와 정답을 다시 살펴보세요.').slice(0,200);return {ok:true,message:'수정 안내를 보냈어요.'};
   }
   if(action==='challenge'){
-   if(a.teacher)fail('문제 풀이는 학생으로 입장해 주세요.');if(s.paused)fail('지금은 잠시 쉬는 중이에요.');const t=s.territories.find(t=>t.id===b.id);if(!t)fail('영토를 찾을 수 없습니다.');if(t!.owner===a.team)fail('이미 우리 나라의 영토예요. 다른 영토에 도전해요.');
+   if(a.teacher)fail('문제 풀이는 학생으로 입장해 주세요.');if(s.paused)fail('지금은 잠시 쉬는 중이에요.');const t=s.territories.find(t=>t.id===b.id||t.questionId===b.id);if(!t)fail('영토를 찾을 수 없습니다.');if(t!.owner===a.team)fail('이미 우리 나라의 영토예요. 다른 영토에 도전해요.');
    const until=s.cooldowns[a.id+':'+t!.id]||0;if(until>Date.now())fail('해설을 읽고 '+Math.ceil((until-Date.now())/1000)+'초 후 다시 도전해요.');
-   const q=s.questions.find(q=>q.id===t!.id&&q.status==='approved');if(!q)fail('문제를 확인 중입니다. 잠시 후 다시 눌러 주세요.');
+   const q=questionFor(s,t!);if(!q)fail('미개척지에는 아직 문제가 없어요. 문제를 만들고 교사 승인을 받으면 점령합니다.');
    for(const [k,c] of Object.entries(s.challenges))if(c.player===a.id||c.expires<Date.now())delete s.challenges[k];
-   const ticket=random();s.challenges[ticket]={player:a.id,territory:t!.id,version:t!.version,epoch:s.epoch,expires:Date.now()+300000};return {ticket,question:publicQ(q!),owner:t!.owner};
+   const ticket=random();s.challenges[ticket]={player:a.id,territory:t!.id,version:t!.version,epoch:s.epoch,expires:Date.now()+300000};return {ticket,question:publicQ(q!),owner:t!.owner,...territoryRules(s.territories.length)[s.territories.indexOf(t!)]};
   }
   if(action==='answer'){
    if(a.teacher)fail('학생만 답안을 제출할 수 있어요.');if(s.paused)fail('지금은 잠시 쉬는 중이에요.');const c=s.challenges[b.ticket];if(!c||c.player!==a.id||c.expires<Date.now()||c.epoch!==s.epoch)fail('도전 시간이 지났거나 게임이 초기화됐어요. 영토를 다시 선택해 주세요.',409);
    const t=s.territories.find(t=>t.id===c.territory)!;if(t.version!==c.version)fail('다른 친구가 먼저 영토를 차지했어요. 새로 도전해 주세요.',409);
-   const q=s.questions.find(q=>q.id===t.id)!;if(b.choice!==null&&(!Number.isInteger(b.choice)||b.choice<0||b.choice>3))fail('보기를 선택해 주세요.');
+   const q=questionFor(s,t)!;if(b.choice!==null&&(!Number.isInteger(b.choice)||b.choice<0||b.choice>3))fail('보기를 선택해 주세요.');
    delete s.challenges[b.ticket];const correct=b.choice===q.answer;if(correct){const solved=s.players[a.id].solvedIds||[];if(!solved.includes(q.id))solved.push(q.id);s.players[a.id].solvedIds=solved;t.owner=a.team;t.version++;log(s,names[a.team]+'의 '+a.nickname+' 님이 '+q.subject+' 영토를 차지했어요!')}else s.cooldowns[a.id+':'+t.id]=Date.now()+15000;
-   return {correct,answer:q.answer,explain:q.explain,source:q.source,message:correct?'정답! 우리 나라의 영토가 되었어요.':b.choice===null?'괜찮아요. 해설을 읽고 다시 도전해요.':'아쉬워요! 해설을 읽고 다시 도전해요.'};
+   const rule=territoryRules(s.territories.length)[s.territories.indexOf(t)];
+   return {correct,...rule,answer:q.answer,explain:q.explain,source:q.source,message:correct?(rule.hanRiver?'정답! 한강 유역을 점령했어요. 이 영토는 2점입니다!':'정답! 일반 영토를 점령했어요. 이 영토는 1점입니다.'):b.choice===null?'괜찮아요. 해설을 읽고 다시 도전해요.':'아쉬워요! 해설을 읽고 다시 도전해요.'};
   }
   fail('지원하지 않는 요청입니다.');
  }));
