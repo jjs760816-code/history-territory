@@ -1,0 +1,223 @@
+{
+  "environment": "deployed HTTP API",
+  "students": 25,
+  "startedAt": "2026-10-21T01:11:11.882Z",
+  "stages": [
+    {
+      "name": "25명 동시 입장",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 14,
+        "409": 11
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 15669
+    },
+    {
+      "name": "25명 동시에 현황 읽기",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 5551
+    },
+    {
+      "name": "서로 다른 영토 25곳 동시 도전",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 12,
+        "409": 13
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 10498
+    },
+    {
+      "name": "25명 동시 정답 제출",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 17,
+        "409": 8
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 18314
+    },
+    {
+      "name": "같은 영토에 25명 동시 도전",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 14,
+        "409": 11
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 15925
+    },
+    {
+      "name": "같은 영토에 25명 동시 정답",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 1,
+        "409": 24
+      },
+      "finalStatuses": {
+        "200": 1,
+        "409": 24
+      },
+      "elapsedMs": 5472
+    },
+    {
+      "name": "5개 팀 순차 재점령",
+      "captures": 5,
+      "passed": true
+    },
+    {
+      "name": "25명 동시에 문제 출제",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 12,
+        "409": 13
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 15954
+    },
+    {
+      "name": "출제 문제 25개 승인",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 12,
+        "409": 13
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 15420
+    },
+    {
+      "name": "25명 현황 동기화 1",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 9864
+    },
+    {
+      "name": "25명 현황 동기화 2",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 5622
+    },
+    {
+      "name": "25명 현황 동기화 3",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 489
+    },
+    {
+      "name": "종료 결과 25명 동시 확인",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 5225
+    },
+    {
+      "name": "기록 저장·종료 후 재입장 차단",
+      "passed": true,
+      "recordId": "record-567d2f8eafaf4f4db18d10554c5fe12e"
+    }
+  ],
+  "issues": [
+    {
+      "stage": "25명 동시 입장",
+      "firstAttemptFailures": 11,
+      "statuses": {
+        "200": 14,
+        "409": 11
+      }
+    },
+    {
+      "stage": "서로 다른 영토 25곳 동시 도전",
+      "firstAttemptFailures": 13,
+      "statuses": {
+        "200": 12,
+        "409": 13
+      }
+    },
+    {
+      "stage": "25명 동시 정답 제출",
+      "firstAttemptFailures": 8,
+      "statuses": {
+        "200": 17,
+        "409": 8
+      }
+    },
+    {
+      "stage": "같은 영토에 25명 동시 도전",
+      "firstAttemptFailures": 11,
+      "statuses": {
+        "200": 14,
+        "409": 11
+      }
+    },
+    {
+      "stage": "25명 동시에 문제 출제",
+      "firstAttemptFailures": 13,
+      "statuses": {
+        "200": 12,
+        "409": 13
+      }
+    },
+    {
+      "stage": "출제 문제 25개 승인",
+      "firstAttemptFailures": 13,
+      "statuses": {
+        "200": 12,
+        "409": 13
+      }
+    }
+  ],
+  "requests": 399,
+  "retries": 69,
+  "statuses": {
+    "200": 304,
+    "403": 1,
+    "409": 93,
+    "410": 1
+  },
+  "room": "GCE8WH",
+  "passed": true,
+  "latencyMs": {
+    "median": 5419,
+    "p95": 7459,
+    "max": 9861
+  },
+  "endedAt": "2026-10-21T01:13:52.306Z"
+}

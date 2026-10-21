@@ -1,0 +1,168 @@
+{
+  "environment": "deployed HTTP API",
+  "students": 25,
+  "startedAt": "2026-10-21T01:14:44.291Z",
+  "stages": [
+    {
+      "name": "25명 동시 입장",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 8421
+    },
+    {
+      "name": "25명 동시에 현황 읽기",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 5472
+    },
+    {
+      "name": "서로 다른 영토 25곳 동시 도전",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 8436
+    },
+    {
+      "name": "25명 동시 정답 제출",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 3594
+    },
+    {
+      "name": "같은 영토에 25명 동시 도전",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 4101
+    },
+    {
+      "name": "같은 영토에 25명 동시 정답",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 1,
+        "409": 24
+      },
+      "finalStatuses": {
+        "200": 1,
+        "409": 24
+      },
+      "elapsedMs": 561
+    },
+    {
+      "name": "5개 팀 순차 재점령",
+      "captures": 5,
+      "passed": true
+    },
+    {
+      "name": "25명 동시에 문제 출제",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 9745
+    },
+    {
+      "name": "출제 문제 25개 승인",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 11094
+    },
+    {
+      "name": "25명 현황 동기화 1",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 6079
+    },
+    {
+      "name": "25명 현황 동기화 2",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 8165
+    },
+    {
+      "name": "25명 현황 동기화 3",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 6231
+    },
+    {
+      "name": "종료 결과 25명 동시 확인",
+      "participants": 25,
+      "firstAttemptStatuses": {
+        "200": 25
+      },
+      "finalStatuses": {
+        "200": 25
+      },
+      "elapsedMs": 6097
+    },
+    {
+      "name": "기록 저장·종료 후 재입장 차단",
+      "passed": true,
+      "recordId": "record-ccaba6fb90c74d7c911d3d008c198858"
+    }
+  ],
+  "issues": [],
+  "requests": 330,
+  "retries": 0,
+  "statuses": {
+    "200": 304,
+    "403": 1,
+    "409": 24,
+    "410": 1
+  },
+  "room": "ZJY8DP",
+  "passed": true,
+  "latencyMs": {
+    "median": 6010,
+    "p95": 9504,
+    "max": 11093
+  },
+  "endedAt": "2026-10-21T01:16:53.453Z"
+}

@@ -31,11 +31,13 @@ function validateQuestion(b:any){
 }
 function publicQ(q:Question,show=false){const {answer,explain,authorId,...rest}=q;return show?{...rest,answer,explain}:rest}
 async function mutate(code:string,fn:(s:State,row:Row)=>any){
- for(let i=0;i<8;i++){
+ for(let i=0;i<32;i++){
   const row=await db().prepare('SELECT * FROM game_rooms WHERE code=?').bind(code).first<Row>();if(!row)fail('방 코드를 다시 확인해 주세요.',404);
   const state:State=JSON.parse(row!.state);ensureContributions(state);const result=fn(state,row!);
   const update=await db().prepare('UPDATE game_rooms SET state=?,revision=revision+1 WHERE code=? AND revision=?').bind(JSON.stringify(state),code,row!.revision).run();
   if(update.meta.changes===1)return result;
+  // Spread simultaneous writers rather than repeatedly colliding in lockstep.
+  await new Promise(resolve=>setTimeout(resolve,10+crypto.getRandomValues(new Uint8Array(1))[0]%Math.min(150,15*(i+1))));
  }
  fail('친구들의 활동을 반영 중입니다. 한 번 더 눌러 주세요.',409);
 }

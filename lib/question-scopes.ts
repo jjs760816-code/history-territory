@@ -10,4 +10,4 @@ export const questionScopes=[
  {id:'republic',name:'광복과 대한민국의 발전',unit:8,count:200,eras:['현대']}
 ];
 export const defaultQuestionScopes=(scenario='three'):string[]=>({three:['three'],northsouth:['northsouth'],goryeo:['goryeo'],joseon:['joseon-early','joseon-late'],occupation:['occupation'],republic:['republic']}[scenario]||['three']);
-export function scopeForQuestion(q:{unit:string;era:string}){const unit=Number(q.unit.match(/주제 (\d+)\./)?.[1]);return questionScopes.find(s=>s.unit===unit&&(unit!==2||s.eras.includes(q.era)))?.id;}
+export function scopeForQuestion(q:{unit:string;era:string}){const unit=Number(q.unit.match(/주제 (\d+)\./)?.[1]);return questionScopes.find(s=>s.unit===unit&&s.eras.includes(q.era))?.id;}
