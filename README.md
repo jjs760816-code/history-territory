@@ -1,4 +1,4 @@
-# 잼스의 역사 영토전
+# 잼스의 역사 땅따먹기
 
 [온라인 게임 바로 시작](https://jams-history-territory.sunlitbrush7.chatgpt.site)
 

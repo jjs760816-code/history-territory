@@ -72,7 +72,7 @@ async function handle(req:Request){
  const action=b.action;
  if(action==='create'){
   const config=configuredTeams(b,502);
-  const title=String(b.title||'우리 반 역사 영토전').trim().slice(0,60),token=random()+random(),teacherHash=await digest(token);
+  const title=String(b.title||'우리 반 역사 땅따먹기').trim().slice(0,60),token=random()+random(),teacherHash=await digest(token);
   for(let i=0;i<5;i++){
    const letters='ABCDEFGHJKLMNPQRSTUVWXYZ23456789',code=Array.from(crypto.getRandomValues(new Uint8Array(6)),v=>letters[v%letters.length]).join('');
    const questions=(seeds as any[]).map(q=>({...q,status:'approved',authorName:'기본 문제은행',authorTeam:-1,authorId:'seed'}));
