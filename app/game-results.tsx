@@ -5,7 +5,7 @@ import {nationNames,nationColors} from './map';
 export default function GameResults({result,finished=false,onClose,busy=false}:any){
  const teams=result.teams||defaultTeams(),nationNames=teams.map((t:any)=>t.name),nationColors=teams.map((t:any)=>t.color);
  const scores=[...result.scores].sort((a:any,b:any)=>b.score-a.score||a.team-b.team);
- const download=()=>{const blob=new Blob([JSON.stringify(result,null,2)],{type:'application/json;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='역사영토전_결과_'+result.code+'.json';a.click();URL.revokeObjectURL(url)};
+ const download=()=>{const blob=new Blob([JSON.stringify(result,null,2)],{type:'application/json;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='역사땅따먹기_결과_'+result.code+'.json';a.click();URL.revokeObjectURL(url)};
  return <div className="final-results" role="dialog" aria-modal="true" aria-label={finished?'게임 종료 결과':'저장된 게임 결과'}><section className="final-sheet">
   <header className="final-heading"><div><div className="eyebrow">{finished?'게임 종료 · 서버에 기록 저장 완료':'메인 화면에 남겨 둔 우리 반 게임 기록'}</div><h1>{result.title}</h1><p>{new Date(result.endedAt).toLocaleString('ko-KR')} 종료 · {scenarioFor(result.scenario).name} · 참여 {result.playerCount}명 · 방 {result.code}</p></div><Flag size={32}/></header>
   <div className="final-winner">🏆 {scores.filter((s:any)=>s.score===scores[0]?.score).map((s:any)=>nationNames[s.team]).join(' · ')} {scores.filter((s:any)=>s.score===scores[0]?.score).length>1?'공동 ':''}1위</div>
